@@ -1,39 +1,57 @@
 package fr.polytech.rimel.comclass.processes;
 
 import fr.polytech.rimel.comclass.classifiers.*;
-import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.repodriller.domain.Commit;
 import org.repodriller.persistence.PersistenceMechanism;
 import org.repodriller.scm.CommitVisitor;
 import org.repodriller.scm.SCMRepository;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class CommitClassificationProcess implements CommitVisitor {
 
     private static final List<CommitClassifier> COMMIT_CLASSIFIERS = Arrays.asList(
-            new DocumentationClassifier(),
-            new FeatureAddClassifier(),
-            new MaintenanceClassifier()
+            new DocumentationClassifier(null),
+            new FeatureAddClassifier(null),
+            new MaintenanceClassifier(null)
     );
 
     @Override
     public void process(SCMRepository scmRepository, Commit commit, PersistenceMechanism writer) {
-        CommitCategory foundCategory = classify(commit);
+        Map<CommitCategory, Float> categoriesCoefficients = computeCategoriesCoefficients(commit);
 
-        writer.write(
-                commit.getHash(),
-                foundCategory == null ? "" : foundCategory.toString()
-        );
+        List<Object> elements = new ArrayList<>();
+        elements.add(commit.getHash());
+        elements.add(classify(categoriesCoefficients));
+        elements.addAll(categoriesCoefficients.values());
+
+        writer.write(elements.toArray());
     }
 
-    private CommitCategory classify(Commit commit) {
-        return COMMIT_CLASSIFIERS.stream()
-                .map(classifier -> new ImmutablePair<>(classifier.getCategoryMembership(commit), classifier.getCategory()))
-                .max((result, another) -> Float.compare(result.getLeft(), another.getLeft()))
-                .map(ImmutablePair::getRight)
-                .orElse(null);
+    private Map<CommitCategory, Float> computeCategoriesCoefficients(Commit commit) {
+        Map<CommitCategory, Float> categoriesCoefficients = new EnumMap<>(CommitCategory.class);
+
+        for (CommitClassifier defaultClassifier : COMMIT_CLASSIFIERS) {
+            CommitClassifier classifier = defaultClassifier.instantiateClassifier(commit);
+
+            categoriesCoefficients.put(classifier.getCategory(), classifier.getCategoryMembership());
+        }
+
+        return categoriesCoefficients;
+    }
+
+    private CommitCategory classify(Map<CommitCategory, Float> categoriesCoefficients) {
+        CommitCategory commitCategory = null;
+        float coefficient = -1;
+
+        for (Map.Entry<CommitCategory, Float> entry : categoriesCoefficients.entrySet()) {
+            if (coefficient < entry.getValue()) {
+                commitCategory = entry.getKey();
+                coefficient = entry.getValue();
+            }
+        }
+
+        return commitCategory;
     }
 
     @Override

@@ -2,8 +2,19 @@ package fr.polytech.rimel.comclass.classifiers;
 
 import org.repodriller.domain.Commit;
 
-public interface CommitClassifier {
+public abstract class CommitClassifier {
 
-    float getCategoryMembership(Commit commit);
-    CommitCategory getCategory();
+    private final Commit analyzedCommit;
+
+    CommitClassifier(Commit analyzedCommit) {
+        this.analyzedCommit = analyzedCommit;
+    }
+
+    Commit getAnalyzedCommit() {
+        return analyzedCommit;
+    }
+
+    public abstract float getCategoryMembership();
+    public abstract CommitCategory getCategory();
+    public abstract CommitClassifier instantiateClassifier(Commit commit);
 }
