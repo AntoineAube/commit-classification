@@ -34,7 +34,7 @@ public class CommitClassificationProcess implements CommitVisitor {
         for (CommitClassifier defaultClassifier : COMMIT_CLASSIFIERS) {
             CommitClassifier classifier = defaultClassifier.instantiateClassifier(commit);
 
-            categoriesCoefficients.put(classifier.getCategory(), classifier.getCategoryMembership());
+            categoriesCoefficients.put(classifier.getCategory(), classifier.computeCategoryMembership());
         }
 
         return categoriesCoefficients;

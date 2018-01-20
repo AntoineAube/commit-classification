@@ -1,6 +1,11 @@
 package fr.polytech.rimel.comclass.classifiers;
 
+import fr.polytech.rimel.comclass.classifiers.helpers.ClassificationHelper;
 import org.repodriller.domain.Commit;
+import org.repodriller.domain.Modification;
+
+import java.util.Collections;
+import java.util.List;
 
 public class MaintenanceClassifier extends CommitClassifier {
 
@@ -9,8 +14,13 @@ public class MaintenanceClassifier extends CommitClassifier {
     }
 
     @Override
-    public float getCategoryMembership() {
+    long computeExtraMatchingLines(Modification fileModification) {
         return 0;
+    }
+
+    @Override
+    List<ClassificationHelper> listClassificationHelpers() {
+        return Collections.emptyList();
     }
 
     @Override
