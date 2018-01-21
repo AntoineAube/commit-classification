@@ -5,18 +5,23 @@ import org.repodriller.persistence.PersistenceMechanism;
 import org.repodriller.scm.CommitVisitor;
 import org.repodriller.scm.SCMRepository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class CommitExplorationProcess implements CommitVisitor {
 
     @Override
     public void process(SCMRepository scmRepository, Commit commit, PersistenceMechanism writer) {
-        writer.write("Hash", commit.getHash());
-        writer.write("Number of modifications", commit.getModifications().size());
+        List<Object> keptFields = new ArrayList<>();
 
-        commit.getModifications().forEach(fileModification ->
-                writer.write("File modification",
-                        fileModification.getType(),
-                        fileModification.wasDeleted()));
+        keptFields.add(commit.getHash());
+        keptFields.add(commit.getAuthor().getName());
+        keptFields.add(commit.getAuthor().getEmail());
+        keptFields.add(commit.getModifications().size());
+        keptFields.add(commit.getDate().getTimeInMillis());
+
+        writer.write(keptFields.toArray());
     }
 
     @Override

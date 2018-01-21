@@ -55,6 +55,10 @@ public class CommitClassificationProcess implements CommitVisitor {
             }
         }
 
+        if (coefficient == 0) {
+            return CommitCategory.UNKNOWN;
+        }
+
         return commitCategory;
     }
 
