@@ -1,2 +1,5 @@
 # Results of studies
 results/*
+
+# Jupyter Notebook
+.ipynb_checkpoints/*
