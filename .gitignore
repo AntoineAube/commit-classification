@@ -3,3 +3,12 @@ results/*
 
 # Jupyter Notebook
 .ipynb_checkpoints/*
+
+# Emacs
+*~
+
+# Study products.
+datasets-builder.jar
+scikit-learn/*
+study-report.html
+study-results/*
