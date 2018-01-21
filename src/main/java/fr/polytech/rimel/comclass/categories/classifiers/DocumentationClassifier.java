@@ -1,9 +1,10 @@
-package fr.polytech.rimel.comclass.classifiers;
+package fr.polytech.rimel.comclass.categories.classifiers;
 
-import fr.polytech.rimel.comclass.classifiers.helpers.ClassificationHelper;
-import fr.polytech.rimel.comclass.classifiers.helpers.LinesOfMatchingFilename;
-import fr.polytech.rimel.comclass.classifiers.helpers.LinesOfMatchingFilenameExtension;
-import fr.polytech.rimel.comclass.classifiers.helpers.MatchingLinesInFile;
+import fr.polytech.rimel.comclass.categories.CommitCategory;
+import fr.polytech.rimel.comclass.categories.helpers.ClassificationHelper;
+import fr.polytech.rimel.comclass.categories.helpers.LinesOfMatchingFilename;
+import fr.polytech.rimel.comclass.categories.helpers.LinesOfMatchingFilenameExtension;
+import fr.polytech.rimel.comclass.categories.helpers.MatchingLinesInFile;
 import org.repodriller.domain.Commit;
 
 import java.util.Arrays;
@@ -14,7 +15,7 @@ import java.util.regex.Pattern;
  * Computes the coefficient to help us determine if the commit is a 'DOCUMENTATION' commit.
  *
  * What is taken into account:
- * - The modified lines in documentation files (HTML page, Markdown document).
+ * - The modified lines in documentation files (HTML page, Markdown document, CSS documents).
  * - The modified commentary lines (beginning with '#' when trimmed) in code files.
  * - The modified lines in tests files.
  *
@@ -26,6 +27,7 @@ public class DocumentationClassifier extends CommitClassifier {
             // Documentation files.
             new LinesOfMatchingFilenameExtension("html"),
             new LinesOfMatchingFilenameExtension("md"),
+            new LinesOfMatchingFilenameExtension("css"),
 
             // Test files.
             new LinesOfMatchingFilename(Pattern.compile(".*test.*")),
@@ -50,7 +52,7 @@ public class DocumentationClassifier extends CommitClassifier {
     }
 
     @Override
-    List<ClassificationHelper> listClassificationHelpers() {
+    protected List<ClassificationHelper> listClassificationHelpers() {
         return HELPERS;
     }
 

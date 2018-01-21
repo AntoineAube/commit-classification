@@ -7,6 +7,7 @@
     <groupId>fr.polytech.rimel</groupId>
     <artifactId>commit-classifier</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <build>
         <plugins>
             <plugin>

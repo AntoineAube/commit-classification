@@ -1,12 +1,17 @@
 package fr.polytech.rimel.comclass;
 
 import fr.polytech.rimel.comclass.studies.DiffStudy;
+import fr.polytech.rimel.comclass.studies.SpecificCommitDiffStudy;
 import org.apache.commons.cli.*;
 import org.repodriller.Study;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Main {
+
+    private static final String COMMIT = "commit";
+    private static final String REPOSITORY = "repository";
+    private static final String OUTPUT = "output";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
@@ -22,7 +27,16 @@ public class Main {
             System.exit(1);
         }
 
-        Study diffStudy = new DiffStudy(parsedArguments.getOptionValue("repository"), parsedArguments.getOptionValue("output"));
+        String repository = parsedArguments.getOptionValue(REPOSITORY);
+        String output = parsedArguments.getOptionValue(OUTPUT);
+
+        Study diffStudy;
+
+        if (parsedArguments.hasOption(COMMIT)) {
+            diffStudy = new SpecificCommitDiffStudy(repository, parsedArguments.getOptionValue(COMMIT));
+        } else {
+            diffStudy = new DiffStudy(repository, output);
+        }
 
         diffStudy.execute();
     }
@@ -33,7 +47,7 @@ public class Main {
         Options parserOptions = new Options();
 
         Option repositoryOption = Option.builder("r")
-                .longOpt("repository")
+                .longOpt(REPOSITORY)
                 .argName("Repository path")
                 .desc("The path to the local repository")
                 .hasArg()
@@ -41,7 +55,7 @@ public class Main {
                 .build();
 
         Option outputOption = Option.builder("o")
-                .longOpt("output")
+                .longOpt(OUTPUT)
                 .argName("Output file path")
                 .desc("The path to the output file for results")
                 .hasArg()
@@ -50,6 +64,7 @@ public class Main {
 
         parserOptions.addOption(repositoryOption);
         parserOptions.addOption(outputOption);
+        parserOptions.addOption("c", COMMIT, true, "Hash of the specific commit to study");
 
         return argsParser.parse(parserOptions, args);
     }

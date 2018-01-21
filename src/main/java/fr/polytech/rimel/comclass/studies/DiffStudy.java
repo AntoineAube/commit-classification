@@ -1,6 +1,6 @@
 package fr.polytech.rimel.comclass.studies;
 
-import fr.polytech.rimel.comclass.classifiers.CommitCategory;
+import fr.polytech.rimel.comclass.categories.CommitCategory;
 import fr.polytech.rimel.comclass.processes.CommitClassificationProcess;
 import org.repodriller.RepositoryMining;
 import org.repodriller.Study;

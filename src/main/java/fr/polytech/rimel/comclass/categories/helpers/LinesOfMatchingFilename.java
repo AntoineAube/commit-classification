@@ -1,4 +1,4 @@
-package fr.polytech.rimel.comclass.classifiers.helpers;
+package fr.polytech.rimel.comclass.categories.helpers;
 
 import org.repodriller.domain.Modification;
 
@@ -14,7 +14,7 @@ public class LinesOfMatchingFilename implements ClassificationHelper {
 
     @Override
     public long countMatchingLines(Modification fileModification) {
-        if (filenamePattern.matcher(fileModification.getFileName()).matches()) {
+        if (filenamePattern.matcher(fileModification.getNewPath()).matches()) {
             return fileModification.getAdded() + (long) fileModification.getRemoved();
         }
 

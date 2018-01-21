@@ -1,4 +1,4 @@
-package fr.polytech.rimel.comclass.classifiers;
+package fr.polytech.rimel.comclass.categories;
 
 public enum CommitCategory {
     DOCUMENTATION,

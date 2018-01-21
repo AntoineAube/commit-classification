@@ -1,4 +1,4 @@
-package fr.polytech.rimel.comclass.classifiers.helpers;
+package fr.polytech.rimel.comclass.categories.helpers;
 
 import java.util.regex.Pattern;
 

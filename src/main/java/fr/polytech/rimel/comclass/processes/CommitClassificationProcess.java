@@ -1,6 +1,10 @@
 package fr.polytech.rimel.comclass.processes;
 
-import fr.polytech.rimel.comclass.classifiers.*;
+import fr.polytech.rimel.comclass.categories.*;
+import fr.polytech.rimel.comclass.categories.classifiers.CommitClassifier;
+import fr.polytech.rimel.comclass.categories.classifiers.DocumentationClassifier;
+import fr.polytech.rimel.comclass.categories.classifiers.FeatureAddClassifier;
+import fr.polytech.rimel.comclass.categories.classifiers.MaintenanceClassifier;
 import org.repodriller.domain.Commit;
 import org.repodriller.persistence.PersistenceMechanism;
 import org.repodriller.scm.CommitVisitor;
@@ -18,7 +22,7 @@ public class CommitClassificationProcess implements CommitVisitor {
 
     @Override
     public void process(SCMRepository scmRepository, Commit commit, PersistenceMechanism writer) {
-        Map<CommitCategory, Float> categoriesCoefficients = computeCategoriesCoefficients(commit);
+        Map<CommitCategory, Long> categoriesCoefficients = computeCategoriesCoefficients(commit);
 
         List<Object> elements = new ArrayList<>();
         elements.add(commit.getHash());
@@ -28,8 +32,8 @@ public class CommitClassificationProcess implements CommitVisitor {
         writer.write(elements.toArray());
     }
 
-    private Map<CommitCategory, Float> computeCategoriesCoefficients(Commit commit) {
-        Map<CommitCategory, Float> categoriesCoefficients = new EnumMap<>(CommitCategory.class);
+    private Map<CommitCategory, Long> computeCategoriesCoefficients(Commit commit) {
+        Map<CommitCategory, Long> categoriesCoefficients = new EnumMap<>(CommitCategory.class);
 
         for (CommitClassifier defaultClassifier : COMMIT_CLASSIFIERS) {
             CommitClassifier classifier = defaultClassifier.instantiateClassifier(commit);
@@ -40,11 +44,11 @@ public class CommitClassificationProcess implements CommitVisitor {
         return categoriesCoefficients;
     }
 
-    private CommitCategory classify(Map<CommitCategory, Float> categoriesCoefficients) {
+    private CommitCategory classify(Map<CommitCategory, Long> categoriesCoefficients) {
         CommitCategory commitCategory = null;
         float coefficient = -1;
 
-        for (Map.Entry<CommitCategory, Float> entry : categoriesCoefficients.entrySet()) {
+        for (Map.Entry<CommitCategory, Long> entry : categoriesCoefficients.entrySet()) {
             if (coefficient < entry.getValue()) {
                 commitCategory = entry.getKey();
                 coefficient = entry.getValue();
