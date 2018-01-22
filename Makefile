@@ -14,8 +14,11 @@ $(DATASETS_BUILDER):
 $(STUDIED_REPOSITORY):
 	git clone $(REPOSITORY_URL) $(STUDIED_REPOSITORY)
 
-$(STUDY_RESULTS): datasets-builder.jar scikit-learn
-	java -jar datasets-builder/target/datasets-builder-1.0-SNAPSHOT-jar-with-dependencies.jar -r scikit-learn/ -o $(STUDY_RESULTS)
+notebook-dependencies:
+	pip install -r requirements.txt
+
+$(STUDY_RESULTS): notebook-dependencies datasets-builder.jar scikit-learn
+	java -jar $(DATASETS_BUILDER) -r scikit-learn/ -o $(STUDY_RESULTS)
 
 study: $(STUDY_RESULTS)
-	jupyter nbconvert $(NOTEBOOK_TITLE).ipynb
+	jupyter nbconvert --execute $(NOTEBOOK_TITLE).ipynb

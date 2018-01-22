@@ -44,7 +44,7 @@ public class DiffStudy implements Study {
                 .visitorsAreThreadSafe(true)
                 .withThreads()
                 .process(new CommitClassificationProcess(), prepareClassificationOutput(outputPath + "/classification.csv"))
-                .process(new CommitExplorationProcess(), prepareClassificationOutput(outputPath + "/exploration.csv"))
+                .process(new CommitExplorationProcess(), prepareExplorationOutput(outputPath + "/exploration.csv"))
                 .mine();
     }
 
