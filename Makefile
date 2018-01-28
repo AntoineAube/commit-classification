@@ -1,6 +1,6 @@
 DATASETS_BUILDER = datasets-builder.jar
-STUDIED_REPOSITORY = scikit-learn
-REPOSITORY_URL = https://github.com/scikit-learn/scikit-learn.git
+STUDIED_REPOSITORIES = theano # scikit-learn
+REPOSITORIES_URL = https://github.com/Theano/Theano # https://github.com/scikit-learn/scikit-learn.git
 STUDY_RESULTS = study-results
 NOTEBOOK_TITLE = study-report
 
@@ -18,7 +18,7 @@ notebook-dependencies:
 	pip install -r requirements.txt
 
 $(STUDY_RESULTS): notebook-dependencies datasets-builder.jar scikit-learn
-	java -jar $(DATASETS_BUILDER) -r scikit-learn/ -o $(STUDY_RESULTS)
+	java -jar $(DATASETS_BUILDER) -r scikit-learn/ -o $(STUDY_RESULTS)/$(STUDIED_REPOSITORY)
 
 study: $(STUDY_RESULTS)
 	jupyter nbconvert --execute $(NOTEBOOK_TITLE).ipynb

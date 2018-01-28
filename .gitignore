@@ -9,6 +9,13 @@ results/*
 
 # Study products.
 datasets-builder.jar
+
+scikit-learn
 scikit-learn/*
-study-report.html
+keras
+keras/*
+theano
+theano/*
+
+*.html
 study-results/*
