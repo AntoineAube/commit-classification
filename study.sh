@@ -6,7 +6,7 @@ rm -f datasets-builder.jar *.html
 
 
 echo "[DEPENDENCIES] Fetching the PIP dependencies for the study."
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 
 
 echo "[REPOSITORIES] Fetching or update studied projects repositories."

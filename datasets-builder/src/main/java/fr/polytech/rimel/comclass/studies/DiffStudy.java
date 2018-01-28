@@ -71,6 +71,9 @@ public class DiffStudy implements Study {
         header.add("AUTHOR_EMAIL");
         header.add("MODIFICATIONS_COUNT");
         header.add("TIMESTAMP");
+        header.add("ADDED_LINES");
+        header.add("DELETED_LINES");
+        header.add("DELETED_FILES");
 
         output.write(header.toArray());
 
