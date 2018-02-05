@@ -15,18 +15,27 @@ if [ ! -d scikit-learn/ ]; then
     git clone https://github.com/scikit-learn/scikit-learn.git scikit-learn
 else
     echo "[REPOSITORIES] 'scikit-learn' is already cloned."
+    cd scikit-learn
+    git pull
+    cd ..
 fi
 
 if [ ! -d keras/ ]; then
     git clone https://github.com/keras-team/keras.git keras
 else
     echo "[REPOSITORIES] 'keras' is already cloned."
+    cd keras
+    git pull
+    cd ..
 fi
 
 if [ ! -d theano/ ]; then
     git clone https://github.com/Theano/Theano.git theano
 else
     echo "[REPOSITORIES] 'theano' is already cloned."
+    cd theano
+    git pull
+    cd ..
 fi
 
 
