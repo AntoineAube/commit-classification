@@ -5,6 +5,7 @@ import sys
 import math
 import progressbar
 import numpy as np
+import scholarly
 
 if len(sys.argv) < 2:
     print('[ERROR] Please specify the path to the contributors file')
@@ -12,9 +13,9 @@ if len(sys.argv) < 2:
 
 file_path = sys.argv[1]
 
-contributors = pd.read_csv(file_path)
+all_contributors = pd.read_csv(file_path)
 
-must_be_fetched = contributors['HAS_PUBLICATIONS'].isnull().value_counts()[True]
+must_be_fetched = all_contributors['HAS_PUBLICATIONS'].isnull().value_counts()[True]
 print('There are', must_be_fetched, 'author(s) that are going to be fetched.')
 
 print('')
@@ -61,4 +62,4 @@ print('')
 print('The approach with Google Scholar concluded that', len(all_contributors[all_contributors['HAS_PUBLICATIONS'] == False]), 'contributors (out of', len(all_contributors), 'contributors) are not researchers.')
 print('The approach with Google Scholar concluded that', len(all_contributors[all_contributors['HAS_PUBLICATIONS'] == True]), 'contributors (out of', len(all_contributors), 'contributors) are researchers.')
 
-contributors.to_csv(file_path)
+all_contributors.to_csv(file_path, index = False)
