@@ -1,21 +1,6 @@
-# Results of studies
 results/*
-
-# Jupyter Notebook
 .ipynb_checkpoints/*
-
-# Emacs
 *~
-
-# Study products.
-datasets-builder.jar
-
-scikit-learn
-scikit-learn/*
-keras
-keras/*
-theano
-theano/*
-
+*.jar
+cloned_projects/*
 *.html
-study-results/*

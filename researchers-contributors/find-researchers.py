@@ -1,81 +1,83 @@
-# Let us import some awesome modules.
+#!/usr/bin/env python3
+
+import argparse
+import sys
+import os
+
 import pandas as pd
 import numpy as np
-import scholarly
-import progressbar
-import os.path
 import math
+import scholarly
+
+import progressbar
 
 
-def load_project_dataset(project_name):
-    dataset = pd.read_csv('study-results/' + project_name + '/exploration.csv')
+parser = argparse.ArgumentParser(prog = 'Find Researchers')
 
-    dataset['PROJECT'] = project_name
+parser.add_argument('-c', required = True, dest = 'commits_directory')
+parser.add_argument('-s', required = True, dest = 'saved_dataset')
 
-    return dataset
-    
-# List of projects.
-projects = ['scikit-learn', 'keras', 'theano']
+arguments = parser.parse_args(sys.argv[1:])
+                                 
 
-# Build a merged dataset for all commits of all projects.
-commits = pd.concat(list(map(load_project_dataset, projects)))
+commits_directory = arguments.commits_directory
+print('Drill results directory: "' + commits_directory + '".')
+
+commits_files = os.listdir(commits_directory)
+print('Are going to be used:', commits_files)
+
+commits_files_paths = map(lambda name: commits_directory + '/' + name, commits_files)
 
 
-# Prepare a dataset for each contributors.
+print()
+
+
+print('Reuniting all datasets into a single one.')
+commits = pd.concat(map(lambda path: pd.read_csv(path), commits_files_paths))
+commits.reset_index(drop = True, inplace = True)
+
+
 contributors = pd.DataFrame({'NAME': commits['AUTHOR_NAME'].unique()})
-
-contributors['COMMITS_DATES'] = contributors['NAME'].apply(lambda ignored: [])
-contributors['EMAILS'] = contributors['NAME'].apply(lambda ignored: [])
-contributors['ADDED_LINES'] = contributors['NAME'].apply(lambda ignored: [])
-contributors['DELETED_LINES'] = contributors['NAME'].apply(lambda ignored: [])
+print('There is', len(contributors), 'unique contributors in the analyzed projects.')
+contributors['EMAILS'] = contributors['NAME'].apply(lambda _: [])
 
 contributors.set_index('NAME', inplace = True)
 
-# Fill the contributors dataset with values from the commits dataset.
-for index, row in commits.iterrows():
-    name = row['AUTHOR_NAME']
 
-    contributors['COMMITS_DATES'][name].append(row['TIMESTAMP'])
-    contributors['EMAILS'][name].append(row['AUTHOR_EMAIL'])
-    contributors['ADDED_LINES'][name].append(row['ADDED_LINES'])
-    contributors['DELETED_LINES'][name].append(row['DELETED_LINES'])
+print()
 
 
-# Compute statistics for each contributors.
-contributors_stats = pd.DataFrame({'NAME': contributors.index})
-contributors_stats['NUMBER_OF_COMMITS'] = 0
-contributors_stats['ADDED_LINES'] = 0
-contributors_stats['DELETED_LINES'] = 0
+print('Looking for contributors emails.')
+with progressbar.ProgressBar(max_value = len(commits)) as bar:
+    for index, row in commits.iterrows():
+        contributors['EMAILS'][row['AUTHOR_NAME']].append(row['AUTHOR_EMAIL'])
 
-def compute_contributor_stats(row):
-    global contributors
-    
-    name = row['NAME']
-
-    row['NUMBER_OF_COMMITS'] = len(contributors['COMMITS_DATES'][name])
-    row['ADDED_LINES'] = sum(contributors['ADDED_LINES'][name])
-    row['DELETED_LINES'] = sum(contributors['DELETED_LINES'][name])
-
-    return row
-
-contributors_stats = contributors_stats.apply(compute_contributor_stats, axis = 1)
-
-contributors_stats.to_csv('study-results/contributors-statistics.csv', index = False)
+        bar.update(index)
 
 
-# Search the status of each researcher.
+print()
+
+
 contributors_status = pd.DataFrame({'NAME': contributors.index})
 
-if os.path.isfile('study-results/contributors.csv'):
-    known_contributors = pd.read_csv('study-results/contributors.csv')
+if os.path.isfile(arguments.saved_dataset):
+    print('Reading saved contributors statuses in: "' + arguments.saved_dataset + '".')
+    
+    known_contributors = pd.read_csv(arguments.saved_dataset)
 
     contributors_status = contributors_status.merge(known_contributors, on = 'NAME', how = 'outer')
 else:
+    print('Cannot not find file "' + arguments.saved_dataset + '". Starting from zero.')
+    
     contributors_status['HAS_RESEARCHER_EMAIL'] = np.NaN
     contributors_status['HAS_PUBLICATION'] = np.NaN
-    
 
-# Fill the 'HAS_RESEARCHER_EMAIL' column.
+
+print()
+
+
+print('Determining which contributor has at least one researcher email.')
+
 def address_domain(address):
     split = address.split('@')
     
@@ -124,10 +126,16 @@ def has_researcher_email(row):
 
 contributors_status = contributors_status.apply(has_researcher_email, axis = 1)
 
+print('Contributors with a researcher email:', len(contributors_status[contributors_status['HAS_RESEARCHER_EMAIL'] == True]), '(out of', len(contributors_status), 'contributors).')
+print('Contributors with no researcher email:', len(contributors_status[contributors_status['HAS_RESEARCHER_EMAIL'] == False]), '(out of', len(contributors_status), 'contributors).')
 
-# Fill the 'HAS_PUBLICATION' column.
+
+print()
+
+
+print('Determining which contributors published at least once.')
+
 must_be_fetched = contributors_status['HAS_PUBLICATION'].isnull().value_counts()[True]
-
 print(must_be_fetched, 'contributor(s) are going to be fetched.')
 
 
@@ -167,5 +175,10 @@ with progressbar.ProgressBar(max_value = len(contributors_status)) as bar:
 
     contributors_status = contributors_status.apply(is_researcher_author, axis = 1)
 
+print('Contributors who published at least once:', len(contributors_status[contributors_status['HAS_PUBLICATION'] == True]), '(out of', len(contributors_status), 'contributors).')
+print('Contributors who never published:', len(contributors_status[contributors_status['HAS_PUBLICATION'] == False]), '(out of', len(contributors_status), 'contributors).')
+    
+print()
 
-contributors_status.to_csv('study-results/contributors-status.csv', index = False)
+print('Saving results in "' + arguments.saved_dataset + '".')
+contributors_status.to_csv(arguments.saved_dataset, index = False)
