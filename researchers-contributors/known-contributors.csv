@@ -1,4 +1,94 @@
 NAME,HAS_RESEARCHER_EMAIL,HAS_PUBLICATION
+(no author),False,True
+tomdesmedt@gmail.com,False,False
+Tom De Smedt,False,True
+Frederik De Bleser,False,False
+Peteris Erins,False,False
+Rajesh Nair,False,True
+Radim Řehůřek,False,True
+Robert Elwell,False,False
+Shubhanshu Mishra,False,True
+gallantcode,False,False
+soycode,False,False
+Monami Sharma,False,False
+Ken Koch,False,False
+Jens Grivolla,False,True
+Steven Loria,False,False
+Dmitry Ermolov,False,False
+Peter Bull,False,True
+maurizio,False,False
+Dan Fu,False,True
+dan-fu,False,False
+cirrushq,False,False
+Anthony Sypniewski,False,False
+NewWorldOrder,False,False
+Markus Beuckelmann,False,False
+HippyZ,False,False
+Frederik Elwert,False,True
+Justin S Bayer,False,False
+Tom Schaul,False,True
+Julian Togelius,False,True
+Thomas Rückstieß,False,False
+Frank Sehnke,True,True
+Christian Osendorfer,False,True
+Martin Felder,False,False
+Daan Wierstra,False,False
+Michael Isik,True,False
+Sun Yi,False,True
+schaul,False,False
+Tom Schaul - IDSIA,False,False
+Thomas Rueckstiess,False,True
+Michele Orrù,False,False
+Daniel,False,False
+unknown,False,False
+kortschak,True,False
+Trevor Bekolay,False,True
+graingert,False,False
+Davoud Taghawi-Nejad,False,True
+Steffen Kampmann,False,False
+Ludwig Schmidt-Hackenberg,True,False
+CJ Carey,False,True
+Sun Junyi,False,False
+Andrew Chase,False,True
+Johannes Bjerva,False,True
+Ian Danforth,False,True
+Patrick,False,False
+PatrickHunter,False,False
+Christopher Dembia,True,True
+Graham Percival,False,True
+Daniel Andres,False,True
+Werner Beroux,False,True
+adrinjalali,False,False
+Jack Kelly (aka Daniel),False,False
+SBretz,True,False
+Shane Bretz,True,False
+Andrea Canciani,False,False
+littledroplet,False,False
+Nihn,False,False
+Ben Goodrich,False,False
+AshleyChen,True,False
+Theodor Nolte,False,False
+Lennart Wagner,False,False
+Ryan Lambert,False,False
+Chandramouli Soorian,False,False
+Agam Agarwal,False,False
+Hank Ditton,False,False
+Thomas Meng,False,True
+Matthew Prestifilippo,False,False
+Denis Mishankov,False,False
+ClimbsRocks,False,False
+Manikandan.R,False,False
+Preston Parry,False,False
+Brandon Mills,False,False
+Po-Hsien Chu,False,False
+bendearborn,False,False
+calz1,False,False
+jonaphin,False,False
+CalZ1,False,False
+alvinthai,False,False
+Raghav Ramesh,False,False
+Johan A. Holm,False,False
+Daniel Klevebring,False,False
 bergstrj@iro.umontreal.ca,True,False
 olivier@olivier-desktop,False,False
 Olivier Breuleux,True,False
@@ -15,7 +105,7 @@ Pascal Lamblin,True,True
 projects@lgcm,False,False
 james@crane,False,False
 bergstrj@lgcm,False,False
-Olivier Delalleau,True,
+Olivier Delalleau,True,True
 delallea@valhalla.apstat.com,False,False
 desjagui@atchoum.iro.umontreal.ca,True,False
 turianjo@is23.m,False,False
@@ -29,30 +119,30 @@ desjagui@opale.iro.umontreal.ca,True,False
 bergstra@ip05.m,False,False
 olivier@ordinateur-de-olivier.local,False,False
 bergstra@tikuanyin,False,False
-Laboratoire d'Informatique des Systemes Adaptatifs,True,
+Laboratoire d'Informatique des Systemes Adaptatifs,True,False
 dumitru@deepnets.mtv.corp.google.com,False,False
 eckdoug@waits.local,False,False
-Douglas Eck,False,
+Douglas Eck,False,True
 eckdoug@localhost,False,False
-Philippe Hamel,False,
+Philippe Hamel,False,True
 pascanur@simplet.iro.umontreal.ca,True,False
-Pierre-Antoine Manzagol,False,
-Razvan Pascanu,False,
-Dumitru Erhan,False,
+Pierre-Antoine Manzagol,False,True
+Razvan Pascanu,False,True
+Dumitru Erhan,False,True
 rman@rpad,False,False
 gdesjardins,False,False
-Arnaud Bergeron,False,
+Arnaud Bergeron,False,True
 fsavard,False,False
-Simon Lemieux,False,
-Michael I Mandel,True,
+Simon Lemieux,False,True
+Michael I Mandel,True,True
 David Warde-Farley,True,True
-David Warde Farley,True,
+David Warde Farley,True,True
 erhandum@bikat.iro.umontreal.ca,True,False
-Ian Goodfellow,False,
+Ian Goodfellow,False,True
 Frédéric Bastien,False,True
 james@x40.unstable,False,False
-Xavier Glorot,True,
-Josh Bleecher Snyder,False,
+Xavier Glorot,True,True
+Josh Bleecher Snyder,False,False
 bastienf@bikat.iro.umontreal.ca,True,False
 desjagui,False,False
 test_rng_mrg.py,False,False
@@ -60,421 +150,835 @@ bastienf@ldapk3.scinet.utoronto.ca,False,False
 boulanni,False,False
 chandiar,False,False
 tutorial/debug_faq.txt,False,False
-Firstname Lastname,False,
+Firstname Lastname,False,False
 Frederic,False,False
 delallea,True,False
 nouiz,False,False
 goodfeli,False,False
 Jason Yosinski,True,True
 Nouiz,False,False
-Graham Taylor,False,
-Guillaume Desjardins,False,
+Graham Taylor,False,True
+Guillaume Desjardins,False,True
 Yann N. Dauphin,False,True
-Philippe  Hamel,False,
-Li Yao,True,
-Matthew Rocklin,False,
+Philippe  Hamel,False,True
+Li Yao,True,True
+Matthew Rocklin,False,True
 glorotxa,True,False
-Sebastian Urban,True,
-Valentin Bisson,True,
-Justin Bayer,False,
-Sander Dieleman,False,
+Sebastian Urban,True,True
+Valentin Bisson,True,False
+Justin Bayer,False,True
+Sander Dieleman,False,True
 onze,False,False
 lamblin,True,False
-Eric Laufer,True,
+Eric Laufer,True,True
 benanne,False,False
 Grégoire,False,False
 Hani,False,False
 HaniAlmousli,False,False
 Nicolas Pinto,True,True
-Nicolas Bouchard,False,
-Eric Larsen,False,
-John Salvatier,False,
+Nicolas Bouchard,False,False
+Eric Larsen,False,True
+John Salvatier,False,True
 jsalvatier,False,False
-Ilan Schnell,False,
+Ilan Schnell,False,False
 abergeron,True,False
-Gabe Schwartz,False,
-Steven Pigeon,True,
+Gabe Schwartz,False,True
+Steven Pigeon,True,True
 steven-pigeon,True,False
-Jeremiah Lowin,False,
-Jey Kottalam,True,
+Jeremiah Lowin,False,False
+Jey Kottalam,True,False
 Caglar,False,False
 abalkin,True,False
-Alexander Belopolsky,True,
-Rami Al-Rfou,False,
-Amir Elaguizy,False,
-Vivek Kulkarni,True,
-Rami Al-Rfou',False,
+Alexander Belopolsky,True,False
+Rami Al-Rfou,False,True
+Amir Elaguizy,False,False
+Vivek Kulkarni,True,True
+Rami Al-Rfou',False,True
 hunse,False,False
-Mehdi Mirza,False,
-john salvatier,False,
+Mehdi Mirza,False,True
+john salvatier,False,True
 f0k,True,False
-Sina Honari,True,
+Sina Honari,True,True
 kuantkid,False,False
-Ben McCann,False,
-Bogdan Budescu,False,
+Ben McCann,False,False
+Bogdan Budescu,False,True
 SinaHonari,False,False
 Hannes Schulz,True,True
 seberg,False,False
-Robert Kern,False,
+Robert Kern,False,True
 Yaroslav Halchenko,False,True
-Ethan Buchman,True,
+Ethan Buchman,True,True
 ebuchman,True,False
 XterNalz,False,False
-Ludwig Schmidt-Hackenberg,True,
-Micky Latowicki,False,
-Ilya Dyachenko,False,
-Jörg Bornschein,False,
-Joerg Bornschein,True,
-Frans Cronje,False,
+Micky Latowicki,False,False
+Ilya Dyachenko,False,False
+Jörg Bornschein,False,True
+Joerg Bornschein,True,True
+Frans Cronje,False,False
 huyng,False,False
 bbudescu,False,False
-John Schulman,False,
-Sigurd Spieckermann,False,
-Vincent Dumoulin,False,
-Misha Denil,False,
+John Schulman,False,True
+Sigurd Spieckermann,False,True
+Vincent Dumoulin,False,True
+Misha Denil,False,True
 vdumoulin,False,False
 joschu,False,False
-Matthew Koichi Grimes,True,
-Marc-Alexandre Cote,False,
-Pierre Luc Carrier,True,
-Xavier Bouthillier/,False,
+Matthew Koichi Grimes,True,False
+Marc-Alexandre Cote,False,True
+Pierre Luc Carrier,True,False
+Xavier Bouthillier/,False,True
 AlOa,False,False
-Markus Roth,False,
+Markus Roth,False,True
 rizar,False,False
-Laurent Dinh,False,
-Nicholas Leonard,False,
+Laurent Dinh,False,True
+Nicholas Leonard,False,True
 Bart,False,False
-Roy Xue,False,
+Roy Xue,False,False
 Hei,False,False
-Dustin Webb,False,
-Bart van Merrienboer,False,
+Dustin Webb,False,True
+Bart van Merrienboer,False,True
 Robert McGibbon,False,True
 Hengjean,False,False
-Jonathan J Hunt,False,
-Guillaume Alain,False,
-Bart van Merriënboer,False,
-Alassane Ndiaye,True,
+Jonathan J Hunt,False,True
+Guillaume Alain,False,True
+Bart van Merriënboer,False,True
+Alassane Ndiaye,True,False
 Tanjay94,False,False
 ChienliMa,False,False
 Tim Head,False,True
-Jeremie Tanguay,True,
-Matthew Trentacoste,False,
+Jeremie Tanguay,True,False
+Matthew Trentacoste,False,True
 Li,False,False
 rahul003,False,False
-Arjun Jain,False,
-Zach Ploskey,False,
+Arjun Jain,False,True
+Zach Ploskey,False,True
 Shai,False,False
-Sergey Matyunin,False,
-Nicolas Ballas,False,
+Sergey Matyunin,False,True
+Nicolas Ballas,False,True
 ziyuang,False,False
 Marco De Nadai,True,True
-Mathieu Germain,True,
-Yaroslav Bulatov,False,
+Mathieu Germain,True,True
+Yaroslav Bulatov,False,True
 pl,False,False
-Geoffrey French [UEA],True,
-Amjad Almahairi,False,
+Geoffrey French [UEA],True,False
+Amjad Almahairi,False,True
 sebastien-j,True,False
 carriepl,False,False
-Paul Christiano,False,
-Lee Zamparo,False,
+Paul Christiano,False,True
+Lee Zamparo,False,False
 Kcub,True,False
-Madison May,False,
+Madison May,False,True
 serdyuk,False,False
-Lucas Beyer,False,
-Kelvin Xu,True,
-Iulian Vlad Serban,True,
-Martin Andrews,False,
+Lucas Beyer,False,True
+Kelvin Xu,True,True
+Iulian Vlad Serban,True,True
+Martin Andrews,False,True
 cocu,False,False
 jiakai,False,False
 ASalvail,False,False
-Karen Ullrich,False,
-Mohammad Pezeshki,True,
-Jonas Degrave,False,
+Karen Ullrich,False,True
+Mohammad Pezeshki,True,True
+Jonas Degrave,False,True
 sebastien,True,False
-Daniel Maturana,True,
+Daniel Maturana,True,True
 Martin Thoma,False,True
 dima,False,False
-Mike C. Fletcher,False,
-Chienli Ma(马千里),False,
+Mike C. Fletcher,False,False
+Chienli Ma(马千里),False,False
 sergii-gavrylov,False,False
 lucasb-eyer,False,False
-Colin Raffel,False,
-Jan Chorowski,False,
-Kyle Meyer,False,
+Colin Raffel,False,True
+Jan Chorowski,False,True
+Kyle Meyer,False,True
 yaoli,False,False
-Saizheng Zhang,False,
+Saizheng Zhang,False,True
 reyoung,False,False
 bbabeshkin,False,False
-Kyung Hyun Cho,False,
-Kyunghyun Cho,True,
-Diogo Moitinho de Almeida,False,
+Kyung Hyun Cho,False,True
+Kyunghyun Cho,True,True
+Diogo Moitinho de Almeida,False,False
 AlexLamb,False,False
 FanZiye(t13m),False,False
-Thomas Mesnard,True,
-Marc-Antoine Rondeau,False,
+Thomas Mesnard,True,True
+Marc-Antoine Rondeau,False,True
 rolf,False,False
 Christof Angermueller,False,True
 DeathMonster666,False,False
-Lijun Xue,False,
+Lijun Xue,False,False
 Benni,False,False
-Ying Zhang,False,
-Jonathan Ho,False,
+Ying Zhang,False,True
+Jonathan Ho,False,True
 --global,False,False
-John Zedlewski,False,
+John Zedlewski,False,False
 Cory Lorenz,False,False
-Seon-Wook Park,False,
-Étienne Simon,True,
-Xavier Bouthillier,True,
+Seon-Wook Park,False,False
+Étienne Simon,True,True
+Xavier Bouthillier,True,True
 orhanf,True,False
-Cesar Laurent,False,
+Cesar Laurent,False,False
 hantek,False,False
 TimSalimans,False,False
 dan,False,False
 Gijs van Tulder,False,True
-Jakob Lombacher,False,
-Melanie Ducoffe,True,
-Anatoly Belikov,False,
-Dario Garcia,False,
+Jakob Lombacher,False,True
+Melanie Ducoffe,True,False
+Anatoly Belikov,False,False
+Dario Garcia,False,True
 =,True,False
 briancheung,False,False
-Ziye Fan,False,
-Markus Beissinger,False,
+Ziye Fan,False,False
+Markus Beissinger,False,False
 Brian Cheung,False,True
-Iban Harlouchet,True,
-Marius Killinger,False,
-Harm de Vries,False,
+Iban Harlouchet,True,False
+Marius Killinger,False,False
+Harm de Vries,False,True
 Michael Eickenberg,False,False
-Daniel Renshaw,False,
-Vik Kamath,False,
+Daniel Renshaw,False,True
+Vik Kamath,False,False
 kelvinxu,False,False
-Stefan Krastanov,False,
+Stefan Krastanov,False,True
 JesseLivezey,False,False
-Jesse Livezey,True,
-Matthew Willson,False,
-Julien Demouth,False,
+Jesse Livezey,True,True
+Matthew Willson,False,True
+Julien Demouth,False,False
 A. Flaxman,True,True
-Albert Zeyer,False,
-Jan Schlüter,True,
-Michael Opitz,False,
-Christophe Van Gysel,True,
-Paul Hollensen,False,
-Claude Coulombe,False,
+Albert Zeyer,False,True
+Jan Schlüter,True,True
+Michael Opitz,False,True
+Christophe Van Gysel,True,True
+Paul Hollensen,False,False
+Claude Coulombe,False,False
 ivdorelian,False,False
 AdeB,False,False
-Alexandre de Brebisson,False,
-Tim Cooijmans,False,
-John Arevalo,False,
-Andy Jiang,False,
-Sean Lee,False,
+Alexandre de Brebisson,False,False
+Tim Cooijmans,False,True
+John Arevalo,False,True
+Andy Jiang,False,False
+Sean Lee,False,True
 Kashif Rasul,False,True
 vesis84,False,False
 Kaixhin,False,False
 Doug,False,False
 eulerreich,False,False
 jan-matthis,True,False
-Piotr Frankowski,False,
-Julien Rebetez,True,
-Sirisha Rambhatla,True,
+Piotr Frankowski,False,False
+Julien Rebetez,True,False
+Sirisha Rambhatla,True,False
 scottsievert,True,False
 mronian,False,False
 wuaalb,False,False
 jotterbach,False,False
-Moslem Kazemi,False,
+Moslem Kazemi,False,True
 Mo,False,False
 peterjsadowski,False,False
-Yi-Lin Juang,False,
-Francesco Visin,False,
-Samira Shabanian,False,
+Yi-Lin Juang,False,True
+Francesco Visin,False,True
+Samira Shabanian,False,True
 Rémy Léone,False,True
-Yurii Shevchuk,False,
+Yurii Shevchuk,False,True
 Andrea,False,False
 Ramana.S,False,False
 joncrall,False,False
 fvisin,False,False
-Andre Holzner,True,
+Andre Holzner,True,False
 gw0 [http://gw.tnode.com/],False,False
 Wei Ouyang,False,True
-Balázs Hidasi,False,
+Balázs Hidasi,False,True
 Balázs,False,False
 Liang-Chi Hsieh,False,True
 Mikhail Korobov,False,True
 Sergei Lebedev,False,True
-Zach Dwiel,False,
+Zach Dwiel,False,False
 dmitriy-serdyuk,False,False
 jojolalpin,False,False
-Saatvik Shah,False,
+Saatvik Shah,False,False
 Francesco,False,False
 Joao Felipe Santos,False,True
-Clay McLeod,False,
+Clay McLeod,False,False
 skaae,False,False
-Matthias Kümmerer,False,
-Vincent Michalski,True,
+Matthias Kümmerer,False,True
+Vincent Michalski,True,True
 andreh,False,False
-Ben Poole,False,
-Prayag Verma,False,
+Ben Poole,False,True
+Prayag Verma,False,False
 Saxenauts,False,False
 memimo,False,False
-Jakub Sygnowski,False,
+Jakub Sygnowski,False,True
 Anish Shah,False,True
-Martin Arjovsky,False,
+Martin Arjovsky,False,True
 sentient07,False,False
-Matt Graham,False,
-Olivier Mastropietro,False,
-Taesup (TS) Kim,True,
-Peng Liu,False,
-Chiheb Trabelsi,False,
-Chinnadhurai Sankar,True,
+Matt Graham,False,True
+Olivier Mastropietro,False,False
+Taesup (TS) Kim,True,False
+Peng Liu,False,True
+Chiheb Trabelsi,False,True
+Chinnadhurai Sankar,True,True
 Adithya Ganesh,False,True
 theaverageguy,True,False
-Wojciech Głogowski,True,
+Wojciech Głogowski,True,False
 cai-lw,False,False
-Gokula Krishnan,False,
+Gokula Krishnan,False,True
 Carl Thomé,False,True
-Mang Wang,True,
+Mang Wang,True,True
 Gilles Louppe,True,False
-Kevin Keraudren,False,
+Kevin Keraudren,False,True
 yobibyte,False,False
 texot,False,False
 Marco,False,False
 slefrancois,True,False
-Fábio Perez,False,
-Faruk Ahmed,True,
-Bhavishya Pohani,False,
-Samira Ebrahimi Kahou,True,
-Christos Tsirigotis,False,
+Fábio Perez,False,True
+Faruk Ahmed,True,True
+Bhavishya Pohani,False,False
+Samira Ebrahimi Kahou,True,True
+Christos Tsirigotis,False,False
 p,False,False
 Kirill Bobyrev,False,False
-Marius F. Killinger,True,
+Marius F. Killinger,True,False
 you-n-g,False,False
 Ilya Kulikov,False,True
-Rizky Luthfianto,False,
+Rizky Luthfianto,False,False
 root,False,False
 mockingjamie,False,False
 fay,False,False
 Ramana Subramanyam,False,True
-Nan Rosemary Ke,True,
+Nan Rosemary Ke,True,True
 tillahoffmann,True,False
-Simon Lefrancois,True,
+Simon Lefrancois,True,True
 Sebastin Santy,False,True
-Nizar Assaf,False,
+Nizar Assaf,False,False
 Maltimore,False,False
-Kumar Krishna Agrawal,False,
-Ciyong Chen,False,
+Kumar Krishna Agrawal,False,False
+Ciyong Chen,False,False
 theano-bot,True,False
-Morgan Stuart,False,
-Huan Zhang,True,
+Morgan Stuart,False,True
+Huan Zhang,True,True
 ruslanagit,True,False
 nke001,False,False
 Ozan Çağlayan,False,True
 hexahedria,False,False
 RadhikaG,False,False
-Bryn Keller,False,
+Bryn Keller,False,False
 Neil,False,False
-César Laurent,False,
+César Laurent,False,False
 evelynmitchell,False,False
-Shawn Tan,False,
+Shawn Tan,False,True
 ballasn,False,False
 genichyar,False,False
-Benjamin Scellier,True,
-Anton Chechetka,False,
-Rithesh Kumar,False,
+Benjamin Scellier,True,False
+Anton Chechetka,False,False
+Rithesh Kumar,False,True
 superantichrist,False,False
-Robin Millette,False,
-Roman Ring,False,
+Robin Millette,False,False
+Roman Ring,False,False
 jakirkham,False,False
 Rasmi,False,False
 medakk,False,False
 notoraptor,False,False
-Alexandre de Brébisson,False,
+Alexandre de Brébisson,False,False
 hsintone,False,False
-Greg Ciccarelli,True,
-Alexander Matyasko,False,
-Reyhane Askari,False,
+Greg Ciccarelli,True,True
+Alexander Matyasko,False,False
+Reyhane Askari,False,False
 kvmanohar22,False,False
-Tim Gasper,False,
-Maxim Kochurov,False,
-Andrés Gottlieb,False,
-Thomas George,False,
+Tim Gasper,False,False
+Maxim Kochurov,False,False
+Andrés Gottlieb,False,True
+Thomas George,False,True
 chinnadhurai,False,False
-Zhouhan LIN,False,
+Zhouhan LIN,False,True
 khaotik,False,False
-Yaroslav Ganin,False,
-Ray Donnelly,False,
-Fei Zhan,False,
+Yaroslav Ganin,False,True
+Ray Donnelly,False,False
+Fei Zhan,False,True
 happygds,True,False
 Gokul,False,False
 Yang Zhang,False,True
 He,False,False
-Wazeer Zulfikar,False,
+Wazeer Zulfikar,False,False
 affanv14,False,False
 wazeerzulfikar,False,False
-Mohamed Ishmael Diwan Belghazi,False,
+Mohamed Ishmael Diwan Belghazi,False,False
 bscellier,False,False
-Dimitar Dimitrov,False,
+Dimitar Dimitrov,False,True
 Fuchai,False,False
 valtron,False,False
-Rebecca N. Palmer,False,
-David Bau,False,
-João Victor Tozatti Risso,False,
-Tegan Maharaj,True,
-Michael Harradon,False,
-Micah Bojrab,False,
-Florian Bordes,True,
-Martin Drawitsch,False,
-Aarni Koskela,False,
+Rebecca N. Palmer,False,False
+David Bau,False,True
+João Victor Tozatti Risso,False,False
+Tegan Maharaj,True,True
+Michael Harradon,False,False
+Micah Bojrab,False,False
+Florian Bordes,True,True
+Martin Drawitsch,False,False
+Aarni Koskela,False,False
 Vikram,False,False
 amrithasuresh,False,False
-Shubh Vachher,False,
-Jeff Donahue,False,
+Shubh Vachher,False,False
+Jeff Donahue,False,True
 Jayanth Koushik,True,True
 Lilian Besson,False,True
-Adam Geitgey,False,
+Adam Geitgey,False,False
 fo40225,False,False
-Joseph Paul Cohen,True,
-Michael Manukyan,False,
-Andrei Costinescu,False,
-Anmol Sahoo,False,
-Adrian Seyboldt,False,
-Holger Kohr,True,
+Joseph Paul Cohen,True,True
+Michael Manukyan,False,False
+Andrei Costinescu,False,False
+Anmol Sahoo,False,False
+Adrian Seyboldt,False,False
+Holger Kohr,True,False
 morrme,False,False
-Aleksandar Botev,False,
+Aleksandar Botev,False,True
 lrast,False,False
 mila,True,False
 botev,False,False
-Lv Tao,False,
+Lv Tao,False,True
 xiaoqie,False,False
-Murugesh Marvel,False,
+Murugesh Marvel,False,False
 naitonium,False,False
 NALEPA,False,False
-Adrian Keet,False,
-Mohammed Affan,False,
+Adrian Keet,False,False
+Mohammed Affan,False,True
 Ubuntu,False,False
-Seton Steven Bocco,True,
-Nan Jiang,False,
-Adam Becker,False,
-Chong Wu,True,
+Seton Steven Bocco,True,False
+Nan Jiang,False,True
+Adam Becker,False,True
+Chong Wu,True,True
 erakra,False,False
 jhelie,False,False
 vipulraheja,False,False
-Juan Camilo Gamboa Higuera,False,
-Ghislain Antony Vaillant,False,
-João Victor Risso,False,
+Juan Camilo Gamboa Higuera,False,True
+Ghislain Antony Vaillant,False,False
+João Victor Risso,False,False
 Jenkins,True,False
 AndroidCloud,False,False
-Zotov Yuriy,False,
+Zotov Yuriy,False,False
 affan,False,False
-Daren Eiri,False,
+Daren Eiri,False,True
 dareneiri,False,False
 yikang,False,False
-Boris Fomitchev,False,
+Boris Fomitchev,False,False
 wyjw,False,False
-Yikang Shen,False,
+Yikang Shen,False,True
 AndreiCostinescu,False,False
 Faruk-Ahmed,False,False
 mrTsjolder,False,False
-Sam Johnson,False,
-Jon Haygood,False,
-Edward Betts,False,
+Sam Johnson,False,True
+Jon Haygood,False,False
+Edward Betts,False,False
+Stefan van der Walt,True,True
+nich2o,False,False
+Gary Ruben,False,True
+Ralf Gommers,False,True
+sccolbert,False,False
+Holger Rapp,False,True
+Damian Eads,False,True
+Tony,True,False
+Zachary Pincus,False,True
+Emmanuelle Gouillart,True,True
+James Turner,True,True
+Luis Pedro Coelho,False,True
+Thouis (Ray) Jones,False,True
+Dan Farmer,False,True
+Pieter Holtzhausen,False,False
+Zach Pincus,False,True
+Tony S Yu,False,False
+Martin Bergtholdt,False,False
+Kyle Mandli,False,True
+Gael varoquaux,True,True
+Brian Holt,True,True
+andy,False,False
+Andreas Mueller,True,True
+emmanuelle,True,False
+Riaan van den Dool,False,False
+cgohlke,True,False
+Neil Yager,False,True
+Nelle Varoquaux,False,True
+tonysyu,False,False
+zachrahan,False,False
+Warren Weckesser,False,False
+K.-Michael Aye,False,True
+Nicolas Poilvert,False,False
+Vincent Albufera,False,False
+David Cournapeau,False,True
+Johannes Schönberger,False,True
+tangofoxtrotmike,False,False
+wilsaj,False,False
+Matt McCormick,False,True
+Jonathan J. Helmus,False,True
+Juan Nunez-Iglesias,True,True
+Leon Tietz,True,False
+Dharhas Pothina,False,True
+Johannes Schönberger,False,True
+Jonathan Helmus,False,True
+Steven Silvester,False,True
+Tomas Kazmar,False,True
+Pavel Campr,False,True
+pcampr,False,False
+Andreas Wuerl,False,False
+Marianne,False,False
+Marianne Corvellec,False,False
+JDWarner,True,False
+Tim Sheerman-Chase,True,True
+odebeir,True,False
+Olivier Debeir,True,True
+Paul Ivanov,False,True
+Josh Warner (Mac),True,False
+Sergey Karayev,False,True
+Christos Psaltis,False,False
+Anders Boesen Lindbo Larsen,False,True
+Adam Ginsburg,False,True
+François Boulogne,False,True
+Colin Lea,False,True
+Christoph Gohlke,True,False
+spotter,False,False
+Jan Margeta,False,True
+Xavier Moles Lopez,False,True
+Malcolm Reynolds,False,True
+Almar,False,False
+yangzetian,False,False
+Chris Beaumont,True,True
+Umesh,False,False
+Josh Warner,False,False
+umesh,False,False
+Chintak Sheth,False,True
+Ankit Agrawal,True,True
+Jostein Bø Fløystad,True,False
+Alexis Mignon,False,True
+Julian Taylor,False,True
+Horea Christian,False,True
+Davin Potts,False,True
+Adam Wisniewski,False,True
+Ferdinand Deger,False,True
+sg,False,False
+Matt Terry,False,True
+Kirill Shklovsky,False,False
+radioxoma,False,False
+Kemal Eren,True,True
+Michael Hansen,False,True
+Gregor Thalhammer,False,True
+Thomas Robitaille,False,True
+Raphael Ackermann,False,False
+François Orieux,False,True
+Christoph Deil,False,False
+Almar Klein,False,False
+Guillem Palou,False,True
+Guillem Palou Visa,False,False
+Jaidev Deshpande,False,False
+Michal Romaniuk,True,False
+Jeremy Metz,False,True
+blink1073,False,False
+Vighnesh Birodkar,True,False
+jaimefrio,False,False
+Neeraj Gangwar,False,True
+Siva Prasad Varma,False,True
+Rishabh Raj,False,False
+Pietro Berkes,False,True
+Johannes L. Schönberger,False,True
+sharky93,False,False
+Tabish,True,False
+Maximilian Albert,False,True
+Kevin Murray,False,True
+Charles Harris,False,True
+Nelson Brown,False,True
+Alexey Buzmakov,False,True
+Fedor Baart,False,True
+Adam Feuer,False,False
+capitanbatata,False,False
+Pablo Márquez Neila,False,False
+Julien Coste,True,True
+Phil Elson,False,False
+Rebecca,False,False
+Stuart Mumford,False,True
+Geoffrey French,False,True
+Jasper St. Pierre,False,False
+Gregory R. Lee,False,True
+Gregory Lee,False,True
+SemiColon Warrier,False,False
+Alexey Umnov,False,True
+Pratap Vardhan,False,True
+Matěj Týč,False,False
+Ivana Kajić,False,True
+arve0,False,False
+Jacopo,False,False
+salvatore,False,False
+Phil Schaf,False,False
+kpk09,True,False
+Michael Sarahan,False,True
+Tim Seifert,False,False
+Antony Lee,False,True
+Andrew Mark,False,True
+Eric Dill,False,True
+Matthew Brett,False,True
+Gustav Larsson,False,True
+hawkerpl,False,False
+Eric,True,False
+Daniel Wennberg,False,False
+Joel Frederico,False,False
+Blake Griffith,False,False
+bennlich,False,False
+Ömer Özak,False,True
+Lee Kamentsky,False,False
+Dhruv Jawali,False,False
+Korijn van Golen,False,False
+Ivo Flipse,False,False
+Christian Sachs,False,False
+Daichi SUZUO,False,True
+Leena P,False,False
+David Koeller,False,True
+michaelpacer,False,False
+cgilon,False,False
+Robin Wilson,False,True
+Arnaud De Bruecker,False,False
+Nicolas Rougier,True,False
+John Wiggins,False,False
+Julius Bier Kirekgaard,True,True
+tv,False,False
+Olivia,False,False
+David PS,False,True
+oew1v07,False,False
+Connelly Barnes,False,True
+martin,False,False
+Charles,False,False
+Joshua Warner,False,False
+Olivia Wilson,False,False
+sumitbinnani,False,False
+Victor Escorcia,False,True
+JGoutin,False,False
+Guillaume Lemaitre,True,True
+Noah Trebesch,False,True
+stevendbrown,False,False
+Julius Bier Kirkegaard,True,True
+Kshitij Saraogi,False,False
+ivoflipse,False,False
+Gael Varoquaux,True,True
+Charles Deledalle,False,True
+Alexandre Fioravante de Siqueira,False,True
+arokem,True,False
+Egor Panfilov,False,False
+Egor,False,False
+Sergio Pascual,False,True
+Himanshu Mishra,False,True
+Panfilov Egor,False,
+Endolith,False,
+endolith,False,
+Evgeni Burovski,False,
+Salvatore Scaramuzzino,False,
+Shaun Singh,True,
+Pradyumna Narayana,False,
+Rodrigo Benenson,False,True
+Orion Poplawski,False,
+Alex Izvorski,False,
+jwittenbach,False,
+walter,False,False
+Gianfranco Costamagna,False,
+Noah Stier,False,
+Martin Zackrisson,False,
+Jeff Hemmelgarn,False,
+Hiyorimi,False,
+mljli,False,
+AbdealiJK,False,
+Rachel Finck,False,
+Scott Sievert,False,
+Todd V. Rovito,False,
+Samuel St-Jean,False,True
+Kyle Jackson,False,True
+almar,False,
+Moriyoshi Koizumi,False,
+Daniel Hyams,False,
+cespenel,False,
+rjeli,False,
+eli,False,
+Paul,False,
+Michael Mueller,False,
+Victor MARTIN,False,
+skrish13,False,
+PengchengAi,False,
+Lachlan,False,
+LachlanD,False,
+JohnnyTeutonic,False,
+Yue Zheng,True,
+Yu Kobayashi,False,False
+Ben Longo,True,
+tseclaudia,True,
+Jiri Borovec,False,
+Jirka,False,
+Pavel Shevchuk,False,
+Sourav Singh,False,True
+David Haberthür,False,True
+Jeyson Molina,False,
+Ole Streicher,False,
+Joe Futrelle,False,
+Oliver Mader,False,
+Ken'ichi Matsui,False,
+dmesejo,False,
+Pavlin Poličar,False,
+Sarwat Fatima,False,
+Francisco de la Peña,False,
+alexandrejaguar,False,
+Anshita Gupta,False,
+Viraj,False,
+Jirka Borovec,False,
+Evan Limanto,False,
+Zoe Richards,False,
+Jeroen Van Goey,False,False
+Nick Zoghb,True,
+danielballan,False,
+George Laurent,False,
+lgeorge,False,
+Sanya,False,
+Roman Golovanov,False,
+Kesavan PS,False,
+Michael Droettboom,False,
+Kesavan Subburam,False,
+GGoussar,True,
+Brad Bazemore,True,
+RoseZhao,True,
+Justin Pinkney,False,
+Nethanel Elzas,False,
+"Chiang, Yi-Yo@home",True,
+timhok,False,
+Robert Bradshaw,False,True
+Jens Glaser,True,
+Floris van Breugel,False,
+Kira,False,
+Theodore Lindsay,False,
+Arka Sadhu,False,
+Vinicius Monego,False,
+monego,False,
+David Völgyes,False,
+Jarrod Millman,False,
+leaprovenzano,False,
+Émile Robitaille,False,
+Sera Yang,True,
+goldsborough,False,
+Robert Pollak,False,
+mrastgoo,False,
+pmneila,False,
+Scott Heatwole,False,
+zhongzyd,False,
+Kira Evans,False,
+corrado9999,False,
+Alex Chum,False,
+Max Schambach,True,
+Scott Warchal,True,
+David Volgyes,False,
+Larry Bradley,False,
+Ben Hadfield,False,
+Yannick Copin,False,
+mikigom,True,
+Leonid Bloch,False,
+blochl,False,
+nrweir,False,
+Saurav R. Tuladhar,False,
+Oleksandr Pavlyk,False,False
+Alvin,False,
+Matt Swain,False,
+Philippe Serhal,True,
+Jérémie Dumas,True,
+François Saint-Jacques,False,
+valentin Bisson,False,
+Erick Lavoie,False,
+Lucas Berthou,False,
+Ryane Alla,True,
+Christian Hudon,False,
+William,False,
+Hannes Bretschneider,False,
+poolio,False,
+Vincent Archambault-B,False,
+Vincent,False,False
+Dan Becker,False,True
+Will Kurt,False,
+David Krueger,False,True
+Alejandro Dubrovsky,False,False
+Harm Aarts,False,
+Eric Martin,False,True
+omar,False,
+Bogdan,False,
+Derek Morris,False,
+Heng Luo,False,
+rambominator,False,
+Durk Kingma,False,
+Matthew Grimes,True,
+zygmuntz,False,
+lmiksys,False,
+My name,True,
+Thomas Rohée,True,
+Jorg Bornschein,True,
+rickard,False,
+Raul Chandias Ferrari,True,
+raul,False,
+Yung Siang Liau,False,False
+AlassaneNdiaye,False,
+Jessica Thompson,True,
+jbuyl,False,
+edersantana,False,
+johnarevalo,False,
+skearnes,True,
+Rickard Norlander,False,
+Steven Kearnes,False,
+Samira E. Kahou,False,
+Axel Davy,False,
+Dirk Gorissen,False,
+Bharath,False,
+Andy Sarroff,True,
+woodshop,True,
+Tadashi MATSUO,False,
+ngocminh.oss,False,
+Matthias Görgens,False,
+Michal Lisicki,False,
+Matthias Gorgens,False,
+serge-m,False,
+KennethPierce,False,
+Trung Huynh,False,
+Julien Brayere,False,
+cdevin,False,
+Junyoung,False,
+Nicholas Dronen,False,True
+薛丞宏,False,
+rdevon,True,
+Ia3n Goodfellow,False,
+rjrowekamp,True,
+Ryan Rowekamp,True,
+yelite,False,False
+Kyle Kastner,False,True
+julianser,False,
+Mathew Donald Rogers,True,
+Lite Ye,False,
+Yuxin Wu,False,
+ppwwyyxx,False,
+Alex Rothberg,False,
+matrogers,False,
+Jae-Myoung Yu,False,
+Minh Le,False,
+MarCnu,False,
+Karsten Behrendt,False,
+icoxfog417,False,
+Geert,False,
+Machine Learning and Applications Group,False,
+Petr Fedorov,False,
+tknhs,False,
+Raul Peralta Lozada,False,
+James Brotchie,False,
+sinhrks,False,False
+Sandeep Bhat,False,
+Jeremy Fix,False,
+Adam Stone,False,
+Pastafarianist,False,
+Jon Gauthier,True,
+Eivind Arvesen,False,
+Xavier Audier,False,
+sakurai,True,
+junbochen,False,
+Hans Engel,False,
+Nicu Tofan,False,
+jonathanvallee,True,
+jovallee,True,
+woozzu,False,
+Alex J. Champandard,False,
+Viktor Pogrebniak,False,
+OpenAI server,False,
+murray,False,
+Seyyed Hossein Hasan Pour,False,
+Sonagra Sumit,False,
 fchollet,False,False
 Corentin Smith,False,False
 Francois,False,False
@@ -487,7 +991,6 @@ aleju,False,False
 Pat York,True,True
 Thomas Unterthiner,False,True
 João Felipe Santos,False,True
-David Krueger,False,True
 Michael Oliver,False,True
 Pranav Shyam,False,True
 skrypka,False,False
@@ -498,7 +1001,6 @@ François Chollet,False,True
 lukedeo,False,False
 Wei Li,False,True
 floydsoft,False,False
-Dan Becker,False,True
 enizhibitsky,False,False
 Alvaro Ulloa,False,True
 Jason Ramapuram,True,True
@@ -512,7 +1014,6 @@ Thomas McColgan,False,True
 John Wittenauer,False,False
 Tristan Deleu,False,False
 Philipp,False,False
-Pavel Campr,False,True
 Xavier Snelgrove,True,True
 Alex Rubinsteyn,False,True
 Tennessee Leeuwenburg,False,True
@@ -548,12 +1049,10 @@ JasonTam,False,False
 Jeremy Heffner,False,False
 Francois Chollet,False,True
 jnphilipp,True,False
-Rodrigo Benenson,False,True
 Anjishnu Kumar,False,True
 Moritz Münst,False,False
 graham,False,False
 Jack Hessel,True,True
-Nicholas Dronen,False,True
 farizrahman4u,False,False
 Makoto Matsuyama,False,False
 Xiao Yang,False,True
@@ -664,7 +1163,6 @@ Kai Sasaki,False,False
 mat kelcey,False,False
 Joshua Loyal,False,False
 RyosukeHonda,False,False
-Monami Sharma,False,False
 mittagessen,False,False
 Kumar Ayush,False,True
 talpay,False,False
@@ -762,7 +1260,6 @@ Arbona,False,False
 Emad El-Haraty,False,False
 Ramanan Balakrishnan,False,True
 ftence,False,False
-Yu Kobayashi,False,False
 Jaye,False,False
 Vijay Vasudevan,False,True
 Johan Pauwels,False,True
@@ -797,7 +1294,6 @@ dathinab,False,False
 Guy Hadash,False,False
 sunil-at-gh,False,False
 Jan Zikes,False,False
-Alejandro Dubrovsky,False,False
 Su Tang,False,True
 PPACI,False,False
 Bohumír Zámečník,False,False
@@ -952,7 +1448,6 @@ Arun Lobo,False,
 Rik Nijessen,False,
 Hussain Karimi,False,
 LI YUXIN,False,
-Jeremy Fix,False,
 Somshubra Majumdar,False,
 Martin Hallén,False,
 Erik Smistad,False,
@@ -979,7 +1474,6 @@ Alan Yee,True,True
 jorgecarleitao,False,False
 Larissa Heinrich,False,
 Kongsea,False,False
-Dirk Gorissen,False,
 Martin Humphreys,False,
 brettkoonce,False,False
 Hans Gaiser,False,
@@ -1036,14 +1530,12 @@ Aron Janarv,False,
 Brian Chu,False,
 Martin,False,False
 MPiecuch,False,False
-Johannes Schönberger,False,True
 raelg,False,False
 Rowel Atienza,False,
 Shadi Akiki,False,
 Cédric Deltheil,False,
 Simon Gate,False,
 Adam Durana,False,
-Noah Stier,False,
 Akshay Chawla,False,
 Lucas Hu,True,
 qin,False,False
@@ -1110,8 +1602,804 @@ Robert Sim,False,
 Mike Solomon,False,
 Garrison Jensen,False,
 Denis Fedorenko,False,
+Qwlouse,False,
+Klaus Greff,False,
+Rupesh Kumar Srivastava,False,True
+Rupesh Srivastava,False,
+Sjoerd van Steenkiste,False,
+julian121266,False,
+teuneboon,False,
+sjoerdvansteenkiste,False,
+WalkandTalkand69,False,
+Raphael Deem,False,
+Tu Pham Nguyen,False,
+Lorenz Diener,True,
+iver56,False,
+Michael Wand,False,
+Andi Heinrich,False,
+Miguel,False,
+miguel,False,
+Daniel Stender,False,
+Edward Loper,True,
+Salim Zayats,True,
+Steven Bird,False,
+Ewan Klein,True,
+Trevor Cohn,False,
+Haejoong Lee,True,
+Rob Speer,True,True
+Baden Hughes,False,
+Tiago Tresoldi,False,
+James R Curran,True,
+Stuart Robinson,False,
+Greg Aumann,False,
+David Ormiston Smith,True,
+Tony Zale,False,
+Sumukh Ghodke,False,
+Dan Garrette,False,
+Joshua Ritterman,False,
+Jussi Salmela,False,
+tarkvara,False,
+Jason Baldridge,False,
+Paul Bone,True,
+Unknown,False,
+Petro Verkhogliad,False,
+Joel Nothman,True,True
+Joseph Frazee,False,
+Meng Xinfan,False,True
+Jason Narad,False,
+Tom Lippincott,True,
+Nitin Madnani,True,
+Margaret Mitchell,False,
+Torsten Marek,False,
+Peter Ljunglöf,False,
+Bjørn Arild Mæland,False,
+Jordan L Boyd-Graber,False,
+Steven Bethard,True,
+Brandon Craig Rhodes,False,
+Maciej Pastuszka,False,
+Alex Rudnick,False,
+David Ross Coles,False,
+Jacob Perkins,False,
+Leon Derczynski,True,
+xim,False,
+bobobo1618,False,
+Tim McNamara,False,
+Rico Sennrich,False,
+tingletech,False,
+Lars Buitinck,True,False
+Piet Delport,False,
+Peter Ljunglöf,False,
+Morten M. Neergaard,False,
+Stefano Lattarini,False,False
+Alexis Dimitriadis,False,
+desilinguist,False,
+Alessandro Presta,False,
+David Doukhan,False,
+jnothman,True,False
+nickgarvey,False,
+Dan Blanchard,False,True
+Rob Zinkov,False,True
+Duncan McGreggor,False,
+nschneid,False,
+Nathan Schneider,True,
+Christian Federmann,False,
+Ceri Stagg,False,
+Pierre-Francois Laquerre,False,
+Pierre-François Laquerre,False,
+Pablo Duboue,False,
+Badri,False,
+Pascal Hartig,False,
+Mark Amery,False,
+Julian Arni,False,
+Ilia Kurenkov,False,
+mheilman,True,
+Dag Høidahl,True,
+LU Chunliang,False,
+Amy Zhou,False,
+Myle Ott,False,
+Stephen Shaw,False,
+yanlend,False,False
+BrucePHill,False,
+Will Roberts,False,
+tylerhartley,False,
+knkumar,False,
+onesandzeroes,False,
+Rob Malouf,True,
+isnowfy,False,
+Dougal Graham,False,
+dougalg,False,
+Siddhant Saraf,False,
+Michelle Fullwood,False,
+pfeyz,False,
+Christopher Pfohl,False,
+Alexander Oleynikov,False,
+Chuck Wooters,True,
+Quentin Pradet,False,
+Lance Nathan,False,
+Willem Van Lint,False,
+Dean Malmgren,False,
+usami,False,
+Marcus Huderle,False,
+Nick Johnson,False,
+Marcus Uneson,False,
+Ivan Barria,False,
+watercrossing,False,
+Louis Tiao,False,False
+Joseph Lynch,True,
+Peter Bronez,False,
+Dmitrijs Milajevs,False,True
+David McClosky,False,
+eltermann,False,False
+helmanofer,False,
+Ofer Helman,False,
+Colorado Reed,False,
+Arthur Darcet,False,
+Liechti,False,
+jw2013,True,
+Alireza Nourian,False,
+Lauri Hallila,False,
+lade,False,
+alvas,False,
+Cristian Capdevila,True,
+Eric Kow,False,
+Miquel Torres,False,
+Farley Knight,False,
+Nantas Nardelli,False,True
+Helder,False,False
+Owen Haynes,False,
+Andrey Salamatin,False,
+Long Duong,False,
+Arvind Chembarpu,False,
+kiwipi,False,
+0ssifrage,False,
+Denis Krusko,False,
+Long Thanh Duong,False,
+ducki13,False,
+Avital Pekker,False,
+Saimadhav Heblikar,False,
+Felipe Madrigal,False,
+Alex Louden,False,
+avitalp,False,
+Ondrej Platek,False,
+Dávid,False,
+Anirudh,False,
+Chris Inskip,False,
+Dmitry Sadovnychyi,False,
+Smitha Milli,False,
+Tom Mortimer-Jones,False,
+lrnzcig,False,
+prpfialho,False,
+Sam Raker,False,
+Pierpaolo Pantone,False,
+dhg,False,
+Keith Suderman,False,
+redsk,True,
+LenRemmerswaal,False,
+kabayan55,True,
+Heran Lin,False,
+Justin Hammar,False,
+JacksonLLee,False,
+hoontw,False,
+Álvaro Justen (@turicas),False,
+何震震,False,
+Le Tuan Anh,False,
+Thomas Stieglmaier,False,
+Petra Barancikova,False,
+Alexander Böhm [jwacalex],False,
+annagarbar,False,
+Francis Bond,False,
+Sergio Oller,False,
+Will Monroe,True,
+Graham Christensen,False,
+Mike Recachinas,True,
+David Kamholz,False,
+Reed Loden,False,
+Jihun Choi,True,
+Andrew Drozdov,False,
+Clark Grubb,False,
+Elijah Rippeth,False,
+Kyriakos Georgiou,False,
+Philip Tzou,False,
+kmario,False,
+Michael Wayne Goodman,False,
+Josh Owen,False,
+tanin-air,False,
+Philippe Ombredanne,False,
+Andrew Giel,False,
+venticello,False,
+Josiah Wang,True,
+David Madl,False,
+hannah,False,
+saurav kumar,False,
+Laspimon,False,
+Guilherme Nardari,False,
+Piotr Kasprzyk,False,
+Dennis O'Brien,False,
+Linghao Zhang,False,
+germanferrero,False,
+Colin,False,
+colin,False,
+Heguang Miao,False,
+Geoff Bacon,True,
+George Berry,True,
+Adam Nelson,False,
+Jānis Šlapiņš,False,
+drevicko,False,
+Andy Reagan,False,
+nsfabina,False,
+alex.constantin,False,
+Tim Leslie,False,
+Igor Korolev,False,
+tsolakghukasyan,True,
+Tan,False,
+muneson,False,
+Prasasto Adi,False,
+SaintNazaire,False,
+hdlim15,True,
+Lenz Furrer,False,
+Xinyuan Liu,False,
+Naoya Kanai,False,False
+Safwan Kamarrudin,True,
+Christian M. Meyer,False,
+Alex Constantin,False,
+jacksonllee,False,
+eromoe,False,
+Arthur Tilley,False,
+Abdelhak Bougouffa,False,
+jmhutch,False,
+Jaehoon Hwang,False,
+Carl Friedrich Bolz,False,
+himkt,True,
+Hiroaki Hayashi,False,
+Vilhjalmur Thorsteinsson,False,
+Guthrie Armstrong,False,
+chintan.sh,False,
+dsfcode,False,
+Nelson Liu,False,True
+sbagan,False,
+xu2333,True,
+Zing,True,
+Albert,False,
+lmatt,False,
+Henry-E,False,
+ali-abdullah,False,
+Stoytcho Stoytchev,False,
+LBenzahia,False,
+Campion Fellin,False,
+xprogramer,False,
+Thanh Ha,False,
+Fábio Silva,False,
+Tan LiLing,False,
+Ziyao Wei,False,
+MohamedAlFahim,False,
+Artiem K,False,False
+Björn Mattsson,False,
+Yannick Couzinié,False,
+Ziyaddin Sadigov,False,
+Chislov Oleg,False,
+Yibin Lin,False,
+Duy Nguyen,False,
+Oleg Chislov,False,
+mattjdelia,False,
+Pavan Joshi,False,
+Aliia,False,
+Jim Regan,False,
+Ethan.Hill,False,
+Dougal J. Sutherland,False,False
+Ian Schweer,False,
+Andy Craze,False,False
+wardbradt,True,
+ymfa,False,
+anati_just,False,
+Somnath Rakshit,False,
+Christian S. Perone,False,
+Amit Saha,False,
+Lorenzo Riano,False,
+Ronny Pfannschmidt,False,
+Blaine Booher,False,
+Anthony Miller-Rhodes,False,
+Senyai,False,
+Gabriel Wainer,False,
+melevir,False,
+Marc Abramowitz,False,
+Ben Elliston,False,
+Tomer Froumin,False,
+RKBK,False,
+Nate Oostendorp,False,
+oostendo,False,
+Anthony Oliver,False,
+Katherine Scott,True,
+xamox,False,
+kscottz,False,
+Wes Moran,False,
+Nathan Oostendorp,False,
+Mark Hansen,False,
+nikhilgk,False,
+zed,False,
+Shuhao Wu,False,
+wonkoderverstaendige,False,
+Kurt DeMaagd,False,
+Jay Rambhia,False,
+rishimukherjee,False,
+khannan,False,
+Victor de Souza,False,
+Gabrielius Mickevicius,False,
+Rishi Mukherjee,False,
+Victor de Souza Lima e Silva,False,
+Vijay Mahantesh SM,False,
+Philip Wrenn,False,
+jayrambhia,False,
+Nate,False,
+Seunghoon Park,False,
+Rick Copeland,False,
+Paul Huff,False,
+brooksryba,False,
+Victor Silva,False,
+Roy Blankman,False,
+Aravind Nambissan,False,
+Thomas Kluyver,False,
+Brooks Ryba,False,
+Alexandru Stan,False,
+Zhicheng Wei,False,
+Salil Kapur,False,
+Tass Iliopoulos,False,
+Ankit,False,
+sm,False,
+Udbhav Prasad,False,
+sushilthe,False,
+Ricardo Garcia Silva,False,
+Steven Ho,False,
+JesseHawkins,False,
+Rajat Kapoor,False,
+Craig Wm. Versek,False,
+HaveF,False,
+Michael Pratt,False,
+Mani Baktha,False,
+Atul Agrawal,False,
+pap-x,False,
+Alex Vykalyuk,False,
+Akshay Dixit,False,
+Mustafa Furkan Kaptan,False,
+polart,False,
+mfkaptan,False,
+Sight Machine,False,
+rudolf,False,
+rsiera,False,
+CodeTab,False,
+stbnps,False,
+davidk,False,
+kinocksebastian,False,
+Artem Polunin,False,
+hadzibanov-kostadin,True,
+anishchandyoterpa,False,
+Varun Varshney,False,
+Miguel Araujo Perez,False,
+Larry Davis,False,
+Jeremy Rubin,False,
+guoyimin,False,
+Fabian Affolter,False,
+Brendan Wood,False,
+Thom Neale,False,
+mayankpj,False,
+waspinator,False,
+Tendrid,False,
+bendtherules,True,
+SergPro,False,
+ryan,False,
+Casey Chance,False,
+Cosmin Boaca,False,
+mechiris,False,
+Panos Georgiadis,False,
+hustcalm,False,
+sharatisrani,False,
+ggolani,False,
+nathan r. hruby,False,
+John Sun,False,
+Mike Shi,False,
+Quan Shi,False,
+Julien Enselme,False,
+Kirill Rozin,False,
+Ronan Collobert,False,
+Clement Farabet,False,
+koray kavukcuoglu,False,
+Koray Kavukcuoglu,False,
+Arnaud Chauveur,False,
+Ivo Danihelka,False,
+Soumith Chintala,False,
+Jeff Rose,False,
+JT Bates,False,
+Andreas Fidjeland,False,
+Julien,False,
+Julien Cornebise,False,
+Leon Bottou,False,
+Dan Horgan,False,
+Tim Harley,False,
+Sergio Gomez,False,
+Andrew Tulloch,False,True
+soumith,False,
+Ioannis Antonoglou,False,
+nicholas-leonard,False,
+Hycis,False,
+Tudor Bosman,False,
+Dominik Grewe,False,
+Sergey Zagoruyko,False,
+Georg Ostrovski,False,
+Jonathan Tompson,False,
+Santa Zhang,False,
+Yori Zwols,False,
+Xiangyan Sun,False,
+Adam Lerer,False,
+Sam Gross,False,
+ztaylor,False,
+Martin Simonovsky,False,
+diz_vara,False,
+Paul Kulchenko,False,
+fsuzanomassa,False,
+samehkhamis,False,
+Massimo Bernava,False,
+marris,False,
+Owen Yamauchi,False,
+j-wilson,False,
+Hugh Perkins,False,
+Jeff Johnson,False,
+Alban Desmaison,False,
+Allan Jabri,False,
+Adria Puigdomenech,False,
+Anastasius,False,
+Adam Paszke,False,
+Nathan Luehr,False,
+Jack Rae,False,
+Jacob Menick,False,
+Marko Vitez,False,
+Simon Layton,False,
+Alvin Chua,False,
+Kaiyu Yang,False,
+Andreas Köpf,False,
+Katya Gonina,False,
+Francisco Massa,False,
+Sylvain Jeaugey,False,
+Mevlana Gemici,False,
+Kieran Milan,False,
+ivpopov,False,
+Thomas Köppe,False,
+Frederic Besse,False,
+Will Feng,True,
+Zeming Lin,False,
+Nimalan Mahendran,False,
+Joost van Doorn,False,
+Aiden Nibali,False,
+Alfredo Canziani,False,
+Brandon Amos,True,
+nkoumchatzky,False,
+nick,False,
+David Saxton,False,
+liboyue,False,
+Xianjie Chen,False,
+Pau Farré,False,
+Luke Alonso,False,
+Zhen He,False,
+carwin,False,
+Lukas Cavigelli,False,
+albanD,True,
+Hani Altwaijry,False,
+tpltnt,False,
+lake4790k,False,
+Verdi March,False,
+Eric Cosatto,False,
+kmul00,False,
+PraveerSINGH,False,
+Pauline Luc,False,
+Zhou Mo,False,
+Cliff Woolley,False,
+Gregory Chanan,False,
+Robert,False,False
+David Yamnitsky,False,
+Lumin Zhou,False,
+Rui Guo,False,
+BTNC,False,
+Ricardo Barreira,False,
+Trevor Killeen,False,
+Howard Su,False,
+Luca Antiga,False,
+Dinesh Bolkensteyn,False,
+Nicolas Vasilache,False,
+Sergey Kotsur,False,
+gchanan,False,
+Denis Yarats,False,
+"Kyle Fernandes, ne Jacobs",True,
+Marat Dukhan,False,
+Peter Jin,False,
+jekbradbury,False,
+Joost van Amersfoort,False,
+Vladimir S. FONOV,False,
+Kai Arulkumaran,False,
+Pavan Yalamanchili,False,
+Gao Yingkai,False,
+atkayu,False,
+Alykhan Tejani,False,
+Andrew Robbins,False,
+Timothy Emerick,False,
+ngimel,False,
+Natalia Gimelshein,False,
+Ruotian Luo,True,
+glample,True,
+Yunfeng Wang,False,
+Ronny,False,
+Li Dong,False,
+Angela Fan,False,
+Sandeep Subramanian,False,
+Jean Senellart,False,
+Sheng Zhang,False,
+Jean A. Senellart,False,
+Tom,False,
+Edouard Delasalles,False,
+Bobby De Simone,False,
+Will Frey,False,
+Hardik Goel,False,
+Filip Binkiewicz,False,
+Janusz Marcinkiewicz,False,
+Mateusz Piotrowski,False,
+L. Zhou,False,
+tvn,False,
+jeremy,False,
+zhoumingjun,False,
+Adam McCarthy,False,
+Chad Whipkey,False,
+Bryan Marcus McCann,False,
+Pieter Noordhuis,False,
+zhtvk,False,
+Conrado Miranda,False,
+Yangqing Jia,False,
+Andrew Dye,False,
+Harsh Agrawal,False,
+Zhou Chang,False,
+Joo-Kyung Kim,False,
+Eli Stevens,False,
+bdfhjk,False,
+Petr Lapukhov,False,
+Nicholas Léonard,False,
+Christian Sarofeen,False,
+Nitish Shirish Keskar,False,
+yunjey,False,
+Guillaume Sautière,False,
+Edgar Riba,False,
+陈云,False,
+rguthrie3,False,
+jokeren,False,
+Ofir Press,False,
+Shiva,False,
+felixgwu,False,
+Guillaume Klein,False,
+Martin Raison,False,
+Yiran Mao,False,
+Du Phan,False,
+Sri Krishna,False,True
+Alexis David Jacq,False,
+Arkadiusz Nowaczyński,False,
+Low Kian Seong,False,
+Nicolas Despres,False,
+Dmitry Ulyanov,False,
+Gu Wang,False,
+Adam Henryk Paszke,False,
+Jonathan Tremblay,False,
+Shenxiu Liu,False,
+Ilya Biryukov,False,
+Yugnaynehc,False,
+Kentaro Wada,False,
+Fisher Yu,False,
+Hardik,False,
+chenyuntc,False,
+Zico Kolter,True,
+Rodrigo Castro,False,
+Xingdong Zuo,False,
+Ahmed Taei,False,
+Michael Galkov,False,
+Jason Kuen,False,
+Rudy Bunel,False,
+Aalekh Jain,False,
+Lukasz Wesolowski,False,
+Tudor Berariu,False,
+Nick Hynes,True,
+Andrii Grynenko,False,
+Jin-Hwa Kim,False,
+Thomas Riccardi,False,
+Pedro Porto Buarque de Gusmao,False,
+Vincenzo Ferrari,False,
+Quan Vuong,True,
+Evan Klitzke,False,
+Michael Shao,False,
+Edward Z. Yang,True,
+DigiDigi,False,
+Victor Quach,False,
+Shubham Jain,False,
+BenFielding,False,
+Aaron Schumacher,False,False
+andrew giessel,False,False
+Oisin Mac Aodha,True,
+Uridah Sami Ahmed,True,
+Bruno Rosa,False,
+Tejas Khot,False,
+Bart Olsthoorn,False,
+Naim Kabir,False,
+Ankit Vani,False,
+GBLin5566,True,
+Abhishek Kadian,False,
+Marvin CAO,False,
+Romain Cledat,False,
+ethanluoyc,False,
+Wojciech Jaśkowski,False,
+Matt Dering,False,
+Riddhiman Dasgupta,False,
+stooloveu,False,
+Xinwei Geng,False,
+Marvin Cao,False,
+Ronny Restrepo,False,
+Thomas Viehmann,False,
+Sean Naren,False,
+Chetan Khatri,False,
+Isac Arnekvist,False,
+Ruxin Wang,False,
+Cosmo Stérin,False,
+ningqingqun,False,
+Jiaming Liu,False,
+Liang Shuailong,False,
+Bubble,False,
+Alexey Romanenko,False,
+Jimmy Jia,False,False
+Makarand Tapaswi,False,
+Yan Wang,False,
+Aron Barreira Bordin,False,
+Robert DiPietro,False,
+martinarjovsky,False,
+Samuel,False,
+Leonid Vlasenkov,False,
+Anton Osokin,False,
+Andrew Gallagher,False,
+Valentin Haenel,False,False
+Zach DeVito,False,
+LiZhaoxing,False,
+cph,False,
+Varun Agrawal,False,True
+Simone Cirillo,False,
+moskomule,False,
+Ethan Luo,False,
+Tzu-Wei Huang,False,
+SunYeop Lee,False,
+Bruno Alexandre Rosa,False,
+lynic,False,
+Jonas Gehring,False,
+Zachary DeVito,False,
+Naren Dasan,False,
+Hungryof,False,
+Amartya Sanyal,False,
+Pan He,False,
+Aapo Kyrola,False,
+brett koonce,False,False
+Yedidya Feldblum,False,
+Surag Nair,False,
+greaber,False,
+Gavin,False,
+Michael Pound,True,
+Victor Gao,False,
+Kaiyu Shi,False,
+Yawara ISHIDA,False,
+adampolyak,False,
+Mo Zhou,False,
+Robert Kirby,False,
+Benoit Rostykus,False,
+Ailing,False,
+LuoweiZhou,True,
+Allen Ye,False,
+Adam Fisch,False,
+yogi81,False,
+John Pearson,False,
+rluo,True,
+peterjc123,False,
+Lu Fang,False,
+Justin Johnson,False,
+Gabriel Bianconi,False,
+Aziz Alto,False,
+hongyi-zhang,False,
+Ryuichi Yamamoto,False,
+lichen,False,
+Iacopo Poli,False,
+Sang-gil Lee,False,
+Priya Goyal,False,
+nadavbh12,False,
+Peter Ruch,False,
+Brett Koonce,False,
+Adrian Punga,False,
+Kazuma Hashimoto,True,
+David Pollack,False,
+Richard Zou,False,
+houseroad,False,
+Emanuel Jöbstl,False,
+randxie,False,
+IraKorshunova,False,
+peter,False,
+Teng Li,False,
+Junjie Bai,False,
+Sylvan Zheng,False,
+SsnL,False,
+Micael Carvalho,False,
+Lorenzo Porzi,False,
+Mark Neumann,True,
+jcatana,False,
+Ujjwal,False,
+Sergey Kolesnikov,False,
+bddppq,False,
+Sebastian Raschka,True,True
+Marcin Elantkowski,False,
+David Mascharka,False,
+Tongzhou Wang,False,
+Mike Garmulewicz,False,
+Dirk Weissenborn,False,
+andreh7,False,False
+Alexander Miller,False,
+James Reed,False,
+zhaopeng,False,
+Jon Crall,False,True
+Darren Garvey,False,
+Maxim Berman,False,
+John Chiotellis,False,
+Nintorac,False,
+Adam Cécile,False,
+Geoffrey Roeder,True,
+Ace,False,
+Frank Cash,True,
+Daniil Pakhomov,False,
+Dhanton,False,
+avmgithub,False,
+Victoria X Lin,True,
+Jaemin Cho,False,
+Vladislav Zavadskyy,False,
+josecabjim,False,
+Dmytro Dzhulgakov,False,
+anderspapitto,False,
+Philipp Lang,False,
+folz,False,
+Fritz Obermeyer,False,
+Simeon Monov,False,
+Scott Stevenson,False,
+PE Mazaré,False,
+xuy111,False,
+theFool,False,
+Tristan Zajonc,False,
+Iaroslav Shcherbatyi,False,
+Gregory Johnson,False,
+alcinos,False,
+mr.Shu,False,False
+Konstantin Lopuhin,False,
+Neeraj Pradhan,False,
+lizz,False,
+Alican Bozkurt,False,
+sunaaron,False,
+Jorghi12,True,
+Shuntaro Takahashi,False,
+Maciej Kula,False,
+yongjik,False,
+Kevin Zakka,False,
+Sherin Thomas,False,
+albanie,True,
+Vishwak Srinivasan,True,
+Atabak Dehban,False,
+William Falcon,True,
+Kam Leung,False,
+Peter Goldsborough,False,
+Zhi-Qiang Zhou,False,
+"HE, Tao",False,
+Yongjik Kim,False,
+ptrblck,False,
+James Bradbury,False,
+Justus Schwabedal,False,
+nguyen-binh-minh,False,
+Siddharth Mittal,False,
+Shagun Sodhani,False,
+Stefan Otte,False,False
+Lynn,False,
+Rachit Singh,False,
+li-roy,True,
 Fabian Pedregosa,True,True
-Gael Varoquaux,True,True
 Jake VanderPlas,True,True
 Alexandre Gramfort,True,True
 Bertrand Thirion,True,True
@@ -1119,10 +2407,8 @@ Michel Vincent,False,True
 ogrisel,True,False
 gvaroquaux,True,False
 Chris Filo Gorgolewski,False,False
-Gael varoquaux,True,True
 Vincent Michel,False,True
 Ron Weiss,False,True
-arokem,True,False
 Edouard Duchesnay,False,True
 vincent,False,False
 revilyo,False,False
@@ -1145,7 +2431,6 @@ Paolo Losi,False,False
 Kamel Ibn Hassen Derouiche,False,False
 Vincent M,False,True
 james.bergstra,False,False
-Emmanuelle Gouillart,True,True
 Satrajit Ghosh,True,True
 mxf,False,False
 Dan Yamins,False,True
@@ -1159,21 +2444,12 @@ Your Name,False,True
 Vincent michel,False,True
 Julien Miotte,False,False
 Virgile,False,False
-Thouis (Ray) Jones,False,True
-Pietro Berkes,False,True
-Nelle Varoquaux,False,True
-Meng Xinfan,False,True
-unknown,False,False
 amueller,True,False
 Alexis Metaireau,False,False
-Lars Buitinck,True,False
 Bryan Silverthorn,False,True
 Jake Vanderplas,True,True
 Keith Goodman,False,False
 Lucas Wiman,False,False
-andy,False,False
-Andreas Mueller,True,True
-Robert,False,False
 Vlad Niculae,True,True
 Jacob Vanderplas,False,True
 Jean Kossaifi,True,True
@@ -1182,7 +2458,6 @@ robertlayton,False,False
 Minwoo Jake Lee,True,False
 clay woolam,False,False
 JeanKossaifi,False,False
-Brian Holt,True,True
 Salvatore Masecchia,False,True
 Conrad Lee,False,True
 Varoquaux,True,False
@@ -1190,7 +2465,6 @@ Clay Woolam,False,False
 bdholt1,False,False
 Jean  KOSSAIFI,True,True
 X006,False,False
-Tim Sheerman-Chase,True,True
 Olivier Hervieu,False,False
 Andy,True,False
 Félix-Antoine Fortin,False,True
@@ -1206,7 +2480,6 @@ Xinfan Meng,False,True
 Shiqiao Du,False,False
 Tiziano Zito,False,True
 Michael EICKENBERG,True,False
-emmanuelle,True,False
 Charles McCarthy,False,False
 Jaques Grobler,False,False
 jansoe,False,False
@@ -1225,14 +2498,12 @@ iBayer,False,False
 Udi Weinsberg,False,True
 ibayer,False,False
 Edouard DUCHESNAY,True,True
-Rob Zinkov,False,True
 Roy Hyunjin Han,False,False
 Joonas Sillanpää,False,False
 Claire Revillet,False,False
 duchesnay,False,False
 Subhodeep Moitra,False,True
 Daniel Duckworth,False,False
-Alexis Mignon,False,True
 Alexandre Abraham,True,True
 Brandyn A. White,False,False
 Dan O'Huiginn,False,False
@@ -1244,7 +2515,6 @@ John Benediktsson,False,True
 Bussonnier Matthias,False,True
 Alex Companioni,False,False
 emanuele,False,False
-David Cournapeau,False,True
 Sergio Medina,True,True
 Francois Savard,False,True
 Peter Welinder,False,True
@@ -1254,10 +2524,8 @@ Marko Burjek,False,False
 Christian Jauvin,False,False
 Virgile Fritsch,False,True
 syhw,False,False
-Luis Pedro Coelho,False,True
 Pavel,False,False
 Jacques Kvam,False,False
-Christoph Deil,False,False
 Tadej Janež,False,False
 cow,False,False
 Aymeric Masurelle,False,True
@@ -1280,7 +2548,6 @@ x006,False,False
 bob,False,False
 Brian Cajes,False,False
 Mark Veronda,False,False
-mr.Shu,False,False
 Scott Dickerson,False,False
 Kyle Beauchamp,False,True
 Wei LI,False,True
@@ -1301,24 +2568,19 @@ Dougal Sutherland,False,True
 Jochen Wersdörfer,False,False
 jamestwebber,False,False
 Justin Pati,True,False
-jnothman,True,False
-Joel Nothman,True,True
 JakeMick,True,False
 Steven De Gryze,False,False
 Raul Garreta,False,False
 draix,False,False
-Sergey Karayev,False,True
 Alexander Fabisch,True,True
 Nicolas Trésegnie,False,False
 Szabo Roland,False,True
 Miroslav Shubernetskiy,False,False
 Seamus Abshere,False,False
 Kevin Hughes,False,True
-Stefano Lattarini,False,False
 Imran Haque,True,True
 lqdc,False,False
 Steve Koch,False,True
-Kemal Eren,True,True
 Jim Holmström,False,False
 roman,False,False
 Felix Brockherde,False,False
@@ -1333,8 +2595,6 @@ nzer0,False,False
 Daniel Velkov,False,False
 Thomas Jarosch,False,False
 Denton Cockburn,False,False
-Kyle Kastner,False,True
-Rob Speer,True,True
 Justin Vincent,False,True
 Fazlul Shahriar,False,True
 Sergey Feldman,False,True
@@ -1357,29 +2617,23 @@ Brooke Osborn,False,True
 Erwin Marsi,True,True
 balu,False,False
 Rohit Sivaprasad,False,False
-Sergio Pascual,False,True
 John Schmidt,False,True
 Untom,False,False
 untom,False,False
 paulgb,False,False
-Rupesh Kumar Srivastava,False,True
 Eric Jacobsen,False,True
 rphlypo,True,False
-Ankit Agrawal,True,True
 Daniele Medri,False,True
 Stephan Hoyer,False,True
-Samuel St-Jean,False,True
 john collins,False,True
 Steven Maude,False,False
 Jorge Cañardo Alastuey,False,False
 Laurent Pierron,True,False
 Vijay Ramesh,False,True
 Manoj-Kumar-S,False,False
-Nantas Nardelli,False,True
 Brian Kearns,False,False
 Craig Thompson,False,True
 Yury V. Zaytsev,False,True
-Ralf Gommers,False,True
 Vincent Dubourg,False,False
 José Ricardo,False,True
 Guilherme Trein,False,False
@@ -1396,18 +2650,14 @@ Peter,False,False
 Eddy L O Jansson,False,False
 bwignall,False,False
 ai8rahim,False,False
-eltermann,False,False
 Florian Wilhelm,False,False
 DanielWeitzenfeld,False,False
 Stefan Walk,False,True
 ugurthemaster,False,False
-adrinjalali,False,False
 Chen Liu,False,True
 Charles Earl,False,False
-CJ Carey,False,True
 Eduardo Ariño de la Rubia,False,False
 csytracy,False,False
-François Boulogne,False,True
 hendrik,False,False
 Joseph Perla,False,False
 Michael Hanke,False,True
@@ -1415,7 +2665,6 @@ Paweł Mandera,False,True
 kaushik94,False,False
 Allen Riddell,False,False
 Yoni Ben-Meshulam,False,False
-Andrew Tulloch,False,True
 Kevin P,False,True
 maheshakya,False,False
 James Yu,False,True
@@ -1427,9 +2676,6 @@ abhishek thakur,False,True
 matrixorz,False,False
 dzikie drożdże,False,False
 Will Myers,False,False
-cgohlke,True,False
-Aaron Schumacher,False,False
-Yung Siang Liau,False,False
 Alyssa,True,False
 Michael Becker,False,True
 jess010,False,False
@@ -1441,7 +2687,6 @@ Yoshiki Vázquez Baeza,True,True
 sdenton4,False,False
 Simon Frid,False,False
 Andrew Ash,False,True
-Matthew Brett,False,True
 Jeffrey Blackburne,False,True
 Jean Michel Rouly,False,False
 t-aft,True,False
@@ -1451,7 +2696,6 @@ IvicaJovic,False,False
 mjbommar,False,False
 Pietro Zambelli,False,True
 Andrew Clegg,False,False
-Michele Orrù,False,False
 Amos Waterland,True,True
 staubda,False,False
 Matthias Feurer,True,True
@@ -1461,9 +2705,7 @@ Jelle Zijlstra,False,True
 Laurent Luce,False,False
 Chyi-Kwei Yau,False,False
 Samuel Charron,False,False
-Stefan van der Walt,True,True
 Ilambharathi Kanniah,False,False
-Valentin Haenel,False,False
 Ronald Phlypo,True,False
 kastnerkyle@gmail.com,False,False
 alex,True,False
@@ -1474,9 +2716,7 @@ Daiki Aminaka,False,False
 Jan Dlabal,True,True
 Steve Tjoa,False,True
 MechCoder,False,False
-Tomas Kazmar,False,True
 Laurent Direr,False,True
-Robert Bradshaw,False,True
 MLG,False,False
 Lagacherie Matthieu,False,False
 lesteve,False,False
@@ -1500,15 +2740,12 @@ wangz10,False,False
 Akshay,False,False
 danfrankj,False,False
 akshayah3,False,False
-Dan Blanchard,False,True
 x0l,False,False
 queqichao,False,False
-Dougal J. Sutherland,False,False
 Will Lamond,False,False
 trevorstephens,False,False
 Manuel,False,False
 Matt Pico,False,False
-Michal Romaniuk,True,False
 Ian Gilmore,False,True
 Christian Stade-Schuldt,False,False
 Manoj Kumar,True,True
@@ -1516,18 +2753,15 @@ Aaron Staple,False,False
 Okal Billy,True,True
 Óscar Nájera,False,True
 Saurabh Jha,False,True
-Matt Terry,False,True
 Nicola Montecchio,False,True
 Loïc Estève,False,False
 Kevin Markham,False,False
 snuderl,False,False
 Borja Ayerdi,False,True
-Antony Lee,False,True
 banilo,False,False
 Raghav R V,False,True
 jdcaballero,False,False
 isms,False,False
-Dmitrijs Milajevs,False,True
 Javier López Peña,False,True
 Thomas Delteil,False,False
 Vjacheslav Murashkin,False,False
@@ -1547,15 +2781,12 @@ Aldrian Obaja,False,True
 David Fletcher,False,True
 Clemens Brunner,False,True
 Lukas Michelbacher,False,True
-Helder,False,False
 Sylvain Zimmer,False,False
 Lars,False,False
 Randall Mason,False,True
 Andreas van Cranenburgh,False,True
 tttthomasssss,False,False
-Pratap Vardhan,False,True
 Wu Jiang,False,True
-Jonathan Helmus,False,True
 Mateusz Susik,True,False
 Cathy Deng,False,False
 Hugues SALAMIN,False,True
@@ -1580,7 +2811,6 @@ Yan Yi,False,True
 terrycojones,False,False
 Vinayak Mehta,False,False
 Barmaley.exe,False,False
-Stefan Otte,False,False
 Michael J Bommarito II,False,False
 Martin Ku,False,True
 Ben Davies,False,True
@@ -1589,16 +2819,12 @@ Joseph,False,False
 Ari Rouvinen,False,False
 Wei Xue,False,True
 akitty,False,False
-sinhrks,False,False
-Eric Martin,False,True
 Boyuan Deng,False,False
 Nicolas,False,False
 Jack Martin,False,True
-Christoph Gohlke,True,False
 Ali Baharev,True,True
 Daniel Galvez,False,True
 Michael Heilman,False,True
-Preston Parry,False,False
 Sam Zhang,False,True
 zhai_pro,False,False
 Hsuan-Tien Lin,True,True
@@ -1627,10 +2853,8 @@ Sonny Hu,False,True
 Daniel Kronovet,False,False
 Shivan Sornarajah,False,False
 Jungkook Park,False,True
-Jaidev Deshpande,False,False
 Frank C. Eckert,False,False
 Christophe Bourguignat,False,False
-Louis Tiao,False,False
 Jacob Schreiber,True,True
 Tian Wang,True,True
 Eduardo Caro,False,True
@@ -1639,7 +2863,6 @@ pianomania,False,False
 Yury Zhauniarovich,False,True
 Stephen Hoover,False,True
 Phil Roth,False,True
-Vincent,False,False
 David Dotson,False,True
 Matt Krump,False,True
 Chih-Wei Chang,False,True
@@ -1647,7 +2870,6 @@ edson duarte,False,True
 Donne Martin,False,False
 Ankur Ankan,False,True
 hlin117,False,False
-yanlend,False,False
 John Kirkham,False,False
 mhg,False,False
 MarkTab marktab.net,False,False
@@ -1670,7 +2892,6 @@ Brian McFee,True,True
 Chi Zhang,False,True
 djipey,False,False
 Masafumi Oyamada,False,True
-Vighnesh Birodkar,True,False
 Andrew Lamb,True,True
 Christopher Erick Moody,False,False
 vstolbunov,False,False
@@ -1697,7 +2918,6 @@ Massil,False,False
 Jeffrey04,False,False
 Thomas Moreau,False,True
 Alexandre Abadie,True,False
-andrew giessel,False,False
 Charles Truong,True,False
 waterponey,False,False
 MaryanMorel,False,False
@@ -1712,7 +2932,6 @@ johannah,False,False
 John Boersma,False,False
 sklearn-ci,False,False
 Giorgio Patrini,True,True
-yelite,False,False
 ngoix,False,False
 Thomas Hallock,False,True
 Nicolas Goix,False,True
@@ -1733,7 +2952,6 @@ Will Welch,False,True
 hugobowne,False,False
 codevig,False,False
 Hugo Bowne-Anderson,False,False
-walter,False,False
 Andrew McCulloh,False,True
 Pieter de Jong,False,True
 Nick James,False,True
@@ -1741,7 +2959,6 @@ LeiG,False,False
 toastedcornflakes,False,False
 Wenjian Huang,False,False
 jeremynixon,False,False
-Nelson Liu,False,True
 kjell,True,False
 Joshua Cook,False,True
 alexfields,False,False
@@ -1791,7 +3008,6 @@ Okhlopkov Daniil Olegovich,False,False
 Davide Lasagna,False,True
 Arafat,False,False
 lizsz,False,False
-Guillaume Lemaitre,True,True
 nlathia,True,False
 practicalswift,False,False
 Toshihiro Kamishima,False,True
@@ -1804,7 +3020,6 @@ Sébastien Lerique,False,True
 Mark Szepieniec,False,False
 Ruifeng Zheng,False,False
 Matheus,False,False
-Jeroen Van Goey,False,False
 JPFrancoia,False,False
 David Warshaw,False,True
 Gustav Mörtberg,False,False
@@ -1831,7 +3046,6 @@ Jill-Jênn Vie,False,True
 Robert Lutz,False,True
 Wenhua Yang,False,False
 Giovanni Lanzani,False,True
-Daniel,False,False
 Ryan Yu,False,True
 "Ping-Yao, Chang",False,False
 nadya-p,False,False
@@ -1850,13 +3064,11 @@ Mark Bao,False,False
 jonathan.striebel,False,False
 Imaculate,False,False
 Francis O'Donovan,False,True
-Sebastian Raschka,True,True
 fisache,False,False
 Igor Andriushchenko,False,False
 Gordon Mohr,False,False
 Inki Hwang,False,False
 wyseguy7,False,False
-Kyle Jackson,False,True
 Behzad Tabibian,False,True
 Janna Brettingen,False,False
 Carol Willing,False,False
@@ -1880,7 +3092,6 @@ Nate George,False,True
 James Fiedler,False,False
 JulianKahnert,False,False
 Iver Jordal,False,True
-Naoya Kanai,False,False
 Jason Laska,False,True
 tKammy,False,False
 Sebastián Vanrell,False,True
@@ -1902,7 +3113,6 @@ Alexandre Saint,False,True
 srvanrell,False,False
 NickleDave,False,False
 Hobson Lane,False,True
-Jimmy Jia,False,False
 themrmax,False,False
 saihttam,False,False
 jblackburne,False,False
@@ -1939,7 +3149,6 @@ Jonathan Rahn,False,False
 Michele Lacchia,False,False
 Dave Elliott,False,True
 Josh Karnofsky,True,False
-Sourav Singh,False,True
 Grzegorz Szpak,True,False
 Kathy Chen,False,True
 Kyle Gilliam,False,True
@@ -1968,7 +3177,6 @@ polmauri,False,False
 Varun Shenoy,False,True
 Deborah Gertrude Digges,False,False
 Kai,False,False
-Jon Crall,False,True
 Artsiom,False,False
 Kaushik Lakshmikanth,False,False
 Kevin Yap,False,True
@@ -1988,7 +3196,6 @@ jeroko,False,False
 David Robles,False,True
 alexandercbooth,False,False
 Matthias Gilch,False,False
-Neeraj Gangwar,False,True
 James A. Bednar,False,True
 Theofilos Papapanagiotou,False,False
 pldtc325,False,False
@@ -1998,7 +3205,6 @@ Nitish Pandey,False,True
 rashchedrin,False,False
 brady salz,False,False
 willduan,False,False
-David Haberthür,False,True
 Vincent Pham,False,True
 Sebastian Pölsterl,False,True
 Don86,False,False
@@ -2008,10 +3214,8 @@ Jonathan LIgo,False,True
 Daniel LeJeune,False,False
 Katie Luangkote,False,False
 John Wei,False,True
-Peter Bull,False,True
 (Venkat) Raghav (Rajagopalan),False,False
 Stijn Tonk,False,False
-Andy Craze,False,False
 mthorrell,False,False
 mikebenfield,False,False
 Devansh D,False,True
@@ -2079,7 +3283,6 @@ Rebecca Bilbro,False,False
 Chayant T15h,False,False
 Peter Csizsek,False,False
 Vathsala Achar,False,False
-andreh7,False,False
 Milen Paskov,False,True
 Minghui Liu,True,True
 Li Li,False,True
@@ -2125,7 +3328,6 @@ Jeremy Steward,False,True
 ldirer,False,False
 jayzed82,False,False
 ndingwall,False,False
-Jan Margeta,False,True
 Aleksandr Sandrovskii,False,False
 Nate Guerin,False,False
 Antonin Carette,False,False
@@ -2151,7 +3353,6 @@ filipj8,True,False
 Vilhelm von Ehrenheim,False,False
 hakaa1,False,False
 Julian Kuhlmann,False,True
-Sri Krishna,False,True
 jschendel,False,False
 Luciano Viola,False,False
 diegodlh,False,False
@@ -2171,7 +3372,6 @@ Jonatan Samoocha,False,False
 Sam Steingold,False,False
 wdevazelhes,False,False
 Dallas Card,False,False
-brett koonce,False,False
 Kye Taylor,False,False
 Ekaterina Tuzova,False,False
 Dmitry Mottl,False,False
@@ -2183,7 +3383,6 @@ Charlie Newey,False,False
 MarsGuy,False,False
 Steven Brown,False,True
 oliblum90,False,False
-Artiem K,False,False
 nielsenmarkus11,False,False
 Hristo,False,False
 goncalo-rodrigues,False,False
@@ -2209,7 +3408,6 @@ Liam Geron,False,False
 Patrick Fernandes,False,True
 Vinit,False,False
 "Nicholas Nadeau, P.Eng., AVS",False,True
-Oleksandr Pavlyk,False,False
 dilutedsauce,False,False
 Jörg Döpfert,False,True
 Christian Braune,False,True
@@ -2221,7 +3419,6 @@ Andreas Bjerre-Nielsen,False,False
 MarkIwanchyshyn,False,False
 Patrick Olden,False,True
 Nicolas Hug,False,True
-Varun Agrawal,False,True
 Trevor Stephens,False,True
 211217613,False,False
 Rajendra arora,False,True
@@ -2261,3 +3458,5 @@ Ayush Gupta,True,True
 Barry Hart,False,False
 Jamie Cox,False,False
 martin-kokos,False,False
+Aron Bordin,False,
+Travis CI User,False,
