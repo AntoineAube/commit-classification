@@ -23,5 +23,8 @@ java -jar ./repositories-driller.jar -r ../cloned-projects -o drilled-informatio
 echo "[EXECUTION] Preprocess the commits: metrics to determine which contributor is a researcher."
 ./find-researchers.py -c drilled-informations -s known-contributors.csv
 
+echo "[EXECUTION] Run the notebook and output the HTML report."
+jupyter nbconvert --execute researchers-contributors.ipynb --ExecutePreprocessor.timeout=-1
+
 echo "[CLEAN] Remove the artefact of the repositories driller."
 rm -f repositories-driller.jar
