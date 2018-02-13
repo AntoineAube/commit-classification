@@ -1,0 +1,8 @@
+sudo pip install requests
+sudo pip install statsmodels
+sudo pip install seaborn
+
+apt install tk
+apt install sonarqube
+apt install sonar-scanner
+apt install jupyter-notebook
