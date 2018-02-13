@@ -30,4 +30,3 @@ project brainstorm https://github.com/IDSIA/brainstorm
 project pyevolve https://github.com/perone/Pyevolve
 project pytorch https://github.com/pytorch/pytorch
 project cogitare https://github.com/cogitare-ai/cogitare
-project tensorflow https://github.com/tensorflow/tensorflow/

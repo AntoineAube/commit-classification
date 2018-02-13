@@ -112,7 +112,7 @@ def is_researcher_address(domain):
 def has_one_researcher_email(contributor_name):
     global contributors
 
-    for domain in list(map(address_domain, contributors['EMAIL'][contributor_name])):
+    for domain in list(map(address_domain, contributors['EMAILS'][contributor_name])):
         if is_researcher_address(domain):
             return True
     
@@ -138,42 +138,44 @@ print('Determining which contributors published at least once.')
 must_be_fetched = contributors_status['HAS_PUBLICATION'].isnull().value_counts()[True]
 print(must_be_fetched, 'contributor(s) are going to be fetched.')
 
-
-with progressbar.ProgressBar(max_value = len(contributors_status)) as bar:
-    current = 0
-    is_captcha_activated = False
+if must_be_fetched > 0:
+    with progressbar.ProgressBar(max_value = must_be_fetched) as bar:
+        current = 0
+        is_captcha_activated = False
     
-    def is_researcher_author(row):
-        global current
+        def is_researcher_author(row):
+            global current
         
-        try:
-            if math.isnan(row['HAS_PUBLICATION']):
+            if not math.isnan(row['HAS_PUBLICATION']):
+                return row
+        
+            try:
                 row['HAS_PUBLICATION'] = is_researcher_author_by_name(row['NAME'])
             
-            return row   
-        finally:
-            bar.update(current)
-            current += 1
-            
-    def is_researcher_author_by_name(author_name):
-        global is_captcha_activated
-        
-        if is_captcha_activated:
-            return np.NaN
-        
-        if len(author_name.split()) < 2:
-            # It is more likely a nickname, so we cannot conclude.
-            return False
-        else:
-            try:
-                author = next(scholarly.search_author(author_name.title()), None)
+                return row   
+            finally:
+                bar.update(current)
+                current += 1
 
-                return author != None
-            except Exception as exception:
-                is_captcha_activated = True
+        def is_researcher_author_by_name(author_name):
+            global is_captcha_activated
+        
+            if is_captcha_activated:
                 return np.NaN
+        
+            if len(author_name.split()) < 2:
+                # It is more likely a nickname, so we cannot conclude.
+                return False
+            else:
+                try:
+                    author = next(scholarly.search_author(author_name.title()), None)
 
-    contributors_status = contributors_status.apply(is_researcher_author, axis = 1)
+                    return author != None
+                except Exception as exception:
+                    is_captcha_activated = True
+                    return np.NaN
+
+        contributors_status = contributors_status.apply(is_researcher_author, axis = 1)
 
 print('Contributors who published at least once:', len(contributors_status[contributors_status['HAS_PUBLICATION'] == True]), '(out of', len(contributors_status), 'contributors).')
 print('Contributors who never published:', len(contributors_status[contributors_status['HAS_PUBLICATION'] == False]), '(out of', len(contributors_status), 'contributors).')

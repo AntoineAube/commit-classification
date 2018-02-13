@@ -2,5 +2,5 @@ results/*
 .ipynb_checkpoints/*
 *~
 *.jar
-cloned_projects/*
+cloned-projects/*
 *.html

@@ -36,8 +36,6 @@ public class ResearchersStudy implements Study {
         new RepositoryMining()
                 .in(GitRepository.singleProject(repositoryPath))
                 .through(Commits.all())
-                .visitorsAreThreadSafe(true)
-                .withThreads()
                 .process(new CommitExplorationProcess(), outputFile())
                 .mine();
     }
