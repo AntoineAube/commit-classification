@@ -91,5 +91,3 @@ function start-sonarqube-analyses
 
 extract-checksums
 start-sonarqube-analyses
-# sonar-scanner
-# echo $?
