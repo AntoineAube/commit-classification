@@ -46,6 +46,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160810</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.repodriller</groupId>
             <artifactId>repodriller</artifactId>
             <version>1.4.0</version>

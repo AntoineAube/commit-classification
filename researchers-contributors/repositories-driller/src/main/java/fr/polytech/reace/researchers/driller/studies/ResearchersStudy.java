@@ -1,6 +1,7 @@
 package fr.polytech.reace.researchers.driller.studies;
 
 import fr.polytech.reace.researchers.driller.processes.CommitExplorationProcess;
+import fr.polytech.reace.researchers.driller.processes.CommitMessageProcess;
 import org.repodriller.RepositoryMining;
 import org.repodriller.Study;
 import org.repodriller.filter.range.Commits;
@@ -23,30 +24,43 @@ public class ResearchersStudy implements Study {
 
     @Override
     public void execute() {
-        File outputDirectory = new File(outputDirectoryPath);
-
-        if (outputDirectory.exists()) {
-            if (outputDirectory.isFile()) {
-                throw new RuntimeException(outputDirectoryPath + " is not a directory.");
-            }
-        } else if (!outputDirectory.mkdirs()) {
-            throw new RuntimeException("Could not create the directory '" + outputDirectoryPath + "'.");
-        }
+        createDirectories();
 
         new RepositoryMining()
                 .in(GitRepository.singleProject(repositoryPath))
                 .through(Commits.all())
                 .process(new CommitExplorationProcess(), outputFile())
+                .process(new CommitMessageProcess(), commitsMessagesFile())
                 .mine();
     }
 
+    private JSONFile commitsMessagesFile() {
+        String[] labels = {"COMMIT_HASH", "COMMIT_MESSAGE"};
+
+        return new JSONFile(outputDirectoryPath + "/commits-messages/" + projectName + ".json", labels);
+    }
+
     private CSVFile outputFile() {
-        CSVFile output = new CSVFile(outputDirectoryPath + "/" + projectName + ".csv");
-
-        output.write("COMMIT_HASH", "AUTHOR_NAME", "AUTHOR_EMAIL",
+        String[] labels = {"COMMIT_HASH", "AUTHOR_NAME", "AUTHOR_EMAIL",
                 "MODIFICATIONS_COUNT", "TIMESTAMP", "ADDED_LINES",
-                "DELETED_LINES", "DELETED_FILES");
+                "DELETED_LINES", "DELETED_FILES"};
 
-        return output;
+        return new CSVFile(outputDirectoryPath + "/commits-information/" + projectName + ".csv", labels);
+    }
+
+    private void createDirectories() {
+        makeDirectory(new File(outputDirectoryPath));
+        makeDirectory(new File(outputDirectoryPath + "/commits-information/"));
+        makeDirectory(new File(outputDirectoryPath + "/commits-messages/"));
+    }
+
+    private static void makeDirectory(File directory) {
+        if (directory.exists()) {
+            if (directory.isFile()) {
+                throw new RuntimeException(directory + " is not a directory.");
+            }
+        } else if (!directory.mkdirs()) {
+            throw new RuntimeException("Could not create the directory '" + directory + "'.");
+        }
     }
 }
