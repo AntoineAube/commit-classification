@@ -1,0 +1,14 @@
+File;Othor1;LineOthor1;Contribution1;Othor2;LineOthor2;Contribution2;Othor3;LineOthor3;Contribution3;File Lines;Learning;NbOthors
+scikit-learn\sklearn\decomposition\setup.py;Chyi-Kwei Yau;23;79.3103448275862;Loic Esteve  ;3;10.344827586206897;TomDLT       ;5;17.24137931034483;29;false;3
+scikit-learn\sklearn\externals\joblib\format_stack.py;Gael Varoquaux;367;91.52119700748129;Olivier Grisel;23;5.7356608478802995;Loic Esteve   ;13;3.2418952618453867;401;false;3
+scikit-learn\sklearn\externals\joblib\my_exceptions.py;Fabian Pedregosa;37;33.63636363636363;Olivier Grisel  ;55;50;Gael Varoquaux  ;20;18.181818181818183;110;false;3
+scikit-learn\sklearn\externals\joblib\numpy_pickle.py;Olivier Grisel;418;72.06896551724138;Gael Varoquaux;130;22.413793103448278;Loic Esteve   ;34;5.862068965517241;580;false;3
+scikit-learn\sklearn\externals\joblib\_compat.py;Gael Varoquaux;8;42.10526315789474;Olivier Grisel;11;57.89473684210526;Loic Esteve   ;2;10.526315789473685;19;false;3
+scikit-learn\sklearn\externals\joblib\_parallel_backends.py;Olivier Grisel;346;94.53551912568307;Loic Esteve   ;20;5.46448087431694;Taehoon Lee   ;2;0.546448087431694;366;false;3
+scikit-learn\sklearn\feature_extraction\setup.py;Lars Buitinck  ;17;89.47368421052632;Loic Esteve    ;2;10.526315789473685;Jake VanderPlas;2;10.526315789473685;19;false;3
+scikit-learn\sklearn\feature_selection\mutual_info_.py;Nikolay Mayorov   ;430;95.55555555555556;Guillaume Lemaitre;19;4.222222222222222;Nate George       ;3;0.6666666666666666;450;false;3
+scikit-learn\sklearn\metrics\cluster\setup.py;Corey Lynch    ;20;86.95652173913044;Loic Esteve    ;3;13.043478260869565;Andreas Mueller;2;8.695652173913043;23;false;3
+scikit-learn\sklearn\model_selection\__init__.py;Raghav RV     ;53;89.83050847457628;Yen           ;3;5.084745762711864;Neeraj Gangwar;5;8.474576271186441;59;false;3
+scikit-learn\sklearn\neural_network\_stochastic_optimizers.py;Glenn Qian;263;98.87218045112782;Nelson Liu;2;0.7518796992481203;seales    ;3;1.1278195488721805;266;false;3
+scikit-learn\sklearn\tree\__init__.py;Brian Holt     ;4;30.76923076923077;Gilles Louppe  ;7;53.84615384615385;Andreas Mueller;4;30.76923076923077;13;false;3
+scikit-learn\sklearn\utils\bench.py;Fabian Pedregosa  ;13;76.47058823529412;Alexandre Gramfort;3;17.647058823529413;Andreas Mueller   ;3;17.647058823529413;17;false;3

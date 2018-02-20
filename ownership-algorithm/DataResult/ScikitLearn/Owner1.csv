@@ -1,0 +1,9 @@
+File;Othor1;LineOthor1;Contribution1;Lines File; Learning ; NbOthors
+scikit-learn\conftest.py;Loic Esteve;14;100;14;false;1
+scikit-learn\sklearn\cross_decomposition\__init__.py;Sebastin Santy;2;100;2;false;1
+scikit-learn\sklearn\externals\__init__.py;Gael Varoquaux;5;100;5;false;1
+scikit-learn\sklearn\externals\joblib\backports.py;Loic Esteve;80;100;80;false;1
+scikit-learn\sklearn\externals\joblib\_memory_helpers.py;Loic Esteve;105;100;105;false;1
+scikit-learn\sklearn\externals\joblib\_multiprocessing_helpers.py;Olivier Grisel;39;100;39;false;1
+scikit-learn\sklearn\preprocessing\_target.py;Guillaume Lemaitre;223;100;223;true;1
+scikit-learn\sklearn\utils\_unittest_backport.py;Kumar Ashutosh;224;100;224;false;1

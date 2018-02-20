@@ -1,0 +1,11 @@
+File;Othor1;LineOthor1;Contribution1;Othor2;LineOthor2;Contribution2;File Lines;Learning;NbOthors
+scikit-learn\build_tools\circle\list_versions.py;Joel Nothman;96;93.20388349514563;Loic Esteve ;8;7.766990291262136;103;false;2
+scikit-learn\sklearn\ensemble\setup.py;Peter Prettenhofer;16;94.11764705882354;Loic Esteve       ;2;11.764705882352942;17;false;2
+scikit-learn\sklearn\externals\funcsigs.py;Olivier Grisel;813;99.75460122699387;Loic Esteve   ;3;0.36809815950920244;815;false;2
+scikit-learn\sklearn\externals\setup.py;Gael Varoquaux ;7;77.77777777777777;Andreas Mueller;3;33.333333333333336;9;false;2
+scikit-learn\sklearn\externals\joblib\numpy_pickle_compat.py;Olivier Grisel;238;99.581589958159;Loic Esteve   ;2;0.8368200836820083;239;false;2
+scikit-learn\sklearn\externals\joblib\numpy_pickle_utils.py;Olivier Grisel;567;87.5;Loic Esteve   ;82;12.654320987654321;648;false;2
+scikit-learn\sklearn\feature_extraction\stop_words.py;Olivier Grisel   ;44;97.77777777777777;Alexander Loginov;2;4.444444444444445;45;false;2
+scikit-learn\sklearn\semi_supervised\__init__.py;Clay Woolam ;8;80;Vlad Niculae;3;30;10;false;2
+scikit-learn\sklearn\utils\deprecation.py;Raghav RV   ;100;74.6268656716418;Joel Nothman;35;26.119402985074625;134;false;2
+scikit-learn\sklearn\utils\_scipy_sparse_lsqr_backport.py;Olivier Grisel;507;99.80314960629921;Raghav RV     ;2;0.3937007874015748;508;false;2
