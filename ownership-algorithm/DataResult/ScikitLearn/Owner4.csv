@@ -1,0 +1,14 @@
+File;Othor1;LineOthor1;Contribution1;Othor2;LineOthor2;Contribution2;Othor3;LineOthor3;Contribution3;Othor4;LineOthor4;Contribution4;File Lines;Learning;NbOthors
+scikit-learn\sklearn\decomposition\base.py;Kyle Kastner  ;149;93.125;Denis Engemann;2;1.25;Raghav RV     ;8;5;Naoya Kanai   ;4;2.5;160;true;4
+scikit-learn\sklearn\externals\six.py;Benjamin Peterson     ;300;51.99306759098787;Sergio Pascual        ;275;47.66031195840554;Lars Buitinck         ;2;0.3466204506065858;Miroslav Shubernetskiy;3;0.5199306759098787;577;false;4
+scikit-learn\sklearn\externals\joblib\disk.py;Fabian Pedregosa;46;43.39622641509434;Gael Varoquaux  ;54;50.943396226415096;Lars Buitinck   ;2;1.8867924528301887;Olivier Grisel  ;7;6.60377358490566;106;false;4
+scikit-learn\sklearn\externals\joblib\hashing.py;Gael Varoquaux  ;166;63.11787072243346;Olivier Grisel  ;61;23.193916349809886;Fabian Pedregosa;6;2.2813688212927756;Loic Esteve     ;33;12.547528517110266;263;false;4
+scikit-learn\sklearn\externals\joblib\logger.py;Gael Varoquaux;137;87.26114649681529;Olivier Grisel;19;12.101910828025478;Loic Esteve   ;2;1.2738853503184713;Taehoon Lee   ;2;1.2738853503184713;157;false;4
+scikit-learn\sklearn\externals\joblib\pool.py;Olivier Grisel;595;96.5909090909091;Loic Esteve   ;18;2.9220779220779223;Gael Varoquaux;4;0.6493506493506493;Taehoon Lee   ;2;0.3246753246753247;616;false;4
+scikit-learn\sklearn\externals\joblib\__init__.py;Loic Esteve     ;28;20.437956204379564;Gael Varoquaux  ;70;51.09489051094891;Fabian Pedregosa;21;15.328467153284672;Olivier Grisel  ;21;15.328467153284672;137;false;4
+scikit-learn\sklearn\gaussian_process\__init__.py;Vincent Dubourg   ;10;43.47826086956522;Jan Hendrik Metzen;12;52.17391304347826;Nelson Liu        ;2;8.695652173913043;Vlad Niculae      ;2;8.695652173913043;23;false;4
+scikit-learn\sklearn\linear_model\huber.py;Manoj Kumar   ;274;95.8041958041958;Joel Nothman  ;4;1.3986013986013985;Olivier Grisel;9;3.1468531468531467;Loic Esteve   ;2;0.6993006993006993;286;true;4
+scikit-learn\sklearn\metrics\setup.py;Andreas Mueller;16;50;Lars Buitinck  ;15;46.875;Loic Esteve    ;2;6.25;Jake VanderPlas;2;6.25;32;false;4
+scikit-learn\sklearn\utils\arpack.py;Naoya Kanai     ;12;52.17391304347826;Jake VanderPlas ;2;8.695652173913043;Fabian Pedregosa;8;34.78260869565217;Loic Esteve     ;4;17.391304347826086;23;false;4
+scikit-learn\sklearn\utils\mocking.py;Andreas Mueller;70;81.3953488372093;Loic Esteve    ;2;2.3255813953488373;Jean Helie     ;4;4.651162790697675;Stephen Hoover ;13;15.116279069767442;86;true;4
+scikit-learn\sklearn\utils\sparsetools\__init__.py;Naoya Kanai    ;9;69.23076923076923;Robert Layton  ;2;15.384615384615385;Andreas Mueller;2;15.384615384615385;Loic Esteve    ;3;23.076923076923077;13;false;4

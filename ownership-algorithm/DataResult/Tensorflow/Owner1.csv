@@ -1,0 +1,354 @@
+File;Othor1;LineOthor1;Contribution1;Lines File; Learning ; NbOthors
+tensorflow\contrib\batching\__init__.py;Christopher Olston;26;100;26;false;1
+tensorflow\contrib\bayesflow\python\ops\csiszar_divergence.py;Joshua V. Dillon;51;100;51;false;1
+tensorflow\contrib\bayesflow\python\ops\custom_grad.py;Joshua V. Dillon;34;100;34;false;1
+tensorflow\contrib\bayesflow\python\ops\halton_sequence.py;A. Unique TensorFlower;33;100;33;false;1
+tensorflow\contrib\bayesflow\python\ops\halton_sequence_impl.py;A. Unique TensorFlower;264;100;264;false;1
+tensorflow\contrib\bayesflow\python\ops\layers_util.py;Dustin Tran;191;100;191;false;1
+tensorflow\contrib\bayesflow\python\ops\mcmc_diagnostics.py;Ian Langmore;32;100;32;false;1
+tensorflow\contrib\bayesflow\python\ops\mcmc_diagnostics_impl.py;Ian Langmore;400;100;400;false;1
+tensorflow\contrib\bayesflow\python\ops\metropolis_hastings.py;A. Unique TensorFlower;33;100;33;false;1
+tensorflow\contrib\bayesflow\python\ops\metropolis_hastings_impl.py;A. Unique TensorFlower;426;100;426;false;1
+tensorflow\contrib\bayesflow\python\ops\optimizers.py;A. Unique TensorFlower;36;100;36;false;1
+tensorflow\contrib\bayesflow\python\ops\sgld_optimizer.py;A. Unique TensorFlower;220;100;220;false;1
+tensorflow\contrib\bayesflow\python\ops\variable_utils.py;Joshua V. Dillon;29;100;29;false;1
+tensorflow\contrib\bayesflow\python\ops\variable_utils_impl.py;Joshua V. Dillon;157;100;157;false;1
+tensorflow\contrib\bayesflow\python\ops\variational_sgd_optimizer.py;A. Unique TensorFlower;279;100;279;false;1
+tensorflow\contrib\boosted_trees\__init__.py;Yifei Feng;22;100;22;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\custom_export_strategy.py;A. Unique TensorFlower;238;100;238;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\custom_loss_head.py;A. Unique TensorFlower;73;100;73;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\dnn_tree_combined_estimator.py;A. Unique TensorFlower;515;100;515;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\estimator.py;A. Unique TensorFlower;227;100;227;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\model.py;A. Unique TensorFlower;124;100;124;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\trainer_hooks.py;A. Unique TensorFlower;215;100;215;false;1
+tensorflow\contrib\boosted_trees\estimator_batch\__init__.py;A. Unique TensorFlower;22;100;22;false;1
+tensorflow\contrib\boosted_trees\lib\learner\batch\base_split_handler.py;A. Unique TensorFlower;147;100;147;false;1
+tensorflow\contrib\boosted_trees\lib\learner\batch\categorical_split_handler.py;A. Unique TensorFlower;194;100;194;false;1
+tensorflow\contrib\boosted_trees\lib\learner\batch\ordinal_split_handler.py;A. Unique TensorFlower;529;100;529;false;1
+tensorflow\contrib\boosted_trees\python\__init__.py;Yifei Feng;22;100;22;false;1
+tensorflow\contrib\boosted_trees\python\ops\batch_ops_utils.py;A. Unique TensorFlower;135;100;135;false;1
+tensorflow\contrib\boosted_trees\python\ops\boosted_trees_ops_loader.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\boosted_trees\python\ops\model_ops.py;A. Unique TensorFlower;112;100;112;false;1
+tensorflow\contrib\boosted_trees\python\ops\prediction_ops.py;A. Unique TensorFlower;24;100;24;false;1
+tensorflow\contrib\boosted_trees\python\ops\quantile_ops.py;A. Unique TensorFlower;203;100;203;false;1
+tensorflow\contrib\boosted_trees\python\ops\split_handler_ops.py;A. Unique TensorFlower;25;100;25;false;1
+tensorflow\contrib\boosted_trees\python\ops\stats_accumulator_ops.py;A. Unique TensorFlower;207;100;207;false;1
+tensorflow\contrib\boosted_trees\python\ops\training_ops.py;A. Unique TensorFlower;25;100;25;false;1
+tensorflow\contrib\boosted_trees\python\training\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\boosted_trees\python\training\functions\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\boosted_trees\python\utils\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\cloud\__init__.py;A. Unique TensorFlower;28;100;28;false;1
+tensorflow\contrib\cluster_resolver\python\training\gce_cluster_resolver.py;Frank Chen;136;100;136;false;1
+tensorflow\contrib\cluster_resolver\python\training\__init__.py;Frank Chen;25;100;25;false;1
+tensorflow\contrib\coder\__init__.py;Sung Jin Hwang;26;100;26;false;1
+tensorflow\contrib\coder\python\ops\coder_ops.py;Sung Jin Hwang;30;100;30;false;1
+tensorflow\contrib\compiler\__init__.py;A. Unique TensorFlower;21;100;21;false;1
+tensorflow\contrib\copy_graph\python\__init__.py;A. Unique TensorFlower;20;100;20;false;1
+tensorflow\contrib\copy_graph\python\util\__init__.py;A. Unique TensorFlower;20;100;20;false;1
+tensorflow\contrib\crf\python\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\crf\python\ops\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\cudnn_rnn\python\layers\__init__.py;James Qin;31;100;31;false;1
+tensorflow\contrib\data\python\ops\contrib_op_loader.py;Derek Murray;24;100;24;false;1
+tensorflow\contrib\data\python\ops\counter.py;Eugene Brevdo;52;100;52;false;1
+tensorflow\contrib\data\python\ops\get_single_element.py;Derek Murray;67;100;67;false;1
+tensorflow\contrib\data\python\ops\random_ops.py;Saurabh Saxena;67;100;67;false;1
+tensorflow\contrib\data\python\ops\stats_ops.py;Derek Murray;180;100;180;false;1
+tensorflow\contrib\data\python\ops\unique.py;Derek Murray;82;100;82;false;1
+tensorflow\contrib\decision_trees\__init__.py;Yifei Feng;27;100;27;false;1
+tensorflow\contrib\distributions\python\ops\autoregressive.py;Joshua V. Dillon;208;100;208;false;1
+tensorflow\contrib\distributions\python\ops\conditional_distribution.py;Eugene Brevdo;75;100;75;false;1
+tensorflow\contrib\distributions\python\ops\estimator.py;Joshua V. Dillon;185;100;185;false;1
+tensorflow\contrib\distributions\python\ops\half_normal.py;Shanqing Cai;171;100;171;false;1
+tensorflow\contrib\distributions\python\ops\independent.py;Joshua V. Dillon;256;100;256;false;1
+tensorflow\contrib\distributions\python\ops\kumaraswamy.py;A. Unique TensorFlower;258;100;258;false;1
+tensorflow\contrib\distributions\python\ops\moving_stats.py;Joshua V. Dillon;238;100;238;false;1
+tensorflow\contrib\distributions\python\ops\bijectors\gumbel.py;A. Unique TensorFlower;124;100;124;false;1
+tensorflow\contrib\distributions\python\ops\bijectors\real_nvp.py;A. Unique TensorFlower;282;100;282;false;1
+tensorflow\contrib\distributions\python\ops\bijectors\reshape.py;A. Unique TensorFlower;314;100;314;false;1
+tensorflow\contrib\distributions\python\ops\bijectors\weibull.py;A. Unique TensorFlower;149;100;149;false;1
+tensorflow\contrib\eager\python\checkpointable_utils.py;Allen Lavoie;413;100;413;false;1
+tensorflow\contrib\eager\python\metrics.py;A. Unique TensorFlower;26;100;26;false;1
+tensorflow\contrib\estimator\python\estimator\dnn.py;drpngx;134;100;134;false;1
+tensorflow\contrib\estimator\python\estimator\dnn_linear_combined.py;A. Unique TensorFlower;164;100;164;false;1
+tensorflow\contrib\estimator\python\estimator\head.py;A. Unique TensorFlower;583;100;583;false;1
+tensorflow\contrib\estimator\python\estimator\linear.py;A. Unique TensorFlower;118;100;118;false;1
+tensorflow\contrib\estimator\python\estimator\logit_fns.py;A. Unique TensorFlower;96;100;96;false;1
+tensorflow\contrib\estimator\python\estimator\multi_head.py;A. Unique TensorFlower;368;100;368;false;1
+tensorflow\contrib\estimator\python\estimator\replicate_model_fn.py;Igor Saprykin;822;100;822;false;1
+tensorflow\contrib\factorization\python\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\feature_column\__init__.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\feature_column\python\feature_column\sequential_feature_column.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\framework\python\ops\audio_ops.py;Pete Warden;36;100;36;false;1
+tensorflow\contrib\framework\python\ops\critical_section_ops.py;Eugene Brevdo;324;100;324;false;1
+tensorflow\contrib\framework\python\ops\sort_ops.py;Martin Wicke;113;100;113;false;1
+tensorflow\contrib\fused_conv\__init__.py;Yangzihao Wang;25;100;25;false;1
+tensorflow\contrib\fused_conv\python\__init__.py;Yangzihao Wang;19;100;19;false;1
+tensorflow\contrib\gan\__init__.py;A. Unique TensorFlower;50;100;50;false;1
+tensorflow\contrib\gan\python\namedtuples.py;A. Unique TensorFlower;190;100;190;false;1
+tensorflow\contrib\gan\python\estimator\__init__.py;A. Unique TensorFlower;40;100;40;false;1
+tensorflow\contrib\gan\python\estimator\python\gan_estimator.py;A. Unique TensorFlower;28;100;28;false;1
+tensorflow\contrib\gan\python\estimator\python\head.py;A. Unique TensorFlower;28;100;28;false;1
+tensorflow\contrib\gan\python\eval\__init__.py;A. Unique TensorFlower;48;100;48;false;1
+tensorflow\contrib\gan\python\eval\python\classifier_metrics.py;drpngx;28;100;28;false;1
+tensorflow\contrib\gan\python\eval\python\eval_utils.py;drpngx;28;100;28;false;1
+tensorflow\contrib\gan\python\eval\python\eval_utils_impl.py;drpngx;134;100;134;false;1
+tensorflow\contrib\gan\python\eval\python\sliced_wasserstein.py;A. Unique TensorFlower;28;100;28;false;1
+tensorflow\contrib\gan\python\eval\python\sliced_wasserstein_impl.py;A. Unique TensorFlower;282;100;282;false;1
+tensorflow\contrib\gan\python\eval\python\summaries.py;drpngx;28;100;28;false;1
+tensorflow\contrib\gan\python\features\python\clip_weights_impl.py;A. Unique TensorFlower;80;100;80;false;1
+tensorflow\contrib\gan\python\features\python\conditioning_utils_impl.py;A. Unique TensorFlower;112;100;112;false;1
+tensorflow\contrib\gan\python\features\python\random_tensor_pool.py;A. Unique TensorFlower;35;100;35;false;1
+tensorflow\contrib\gan\python\features\python\random_tensor_pool_impl.py;A. Unique TensorFlower;139;100;139;false;1
+tensorflow\contrib\gan\python\features\python\virtual_batchnorm_impl.py;A. Unique TensorFlower;306;100;306;false;1
+tensorflow\contrib\gan\python\losses\python\losses_impl.py;A. Unique TensorFlower;981;100;981;false;1
+tensorflow\contrib\hooks\__init__.py;Darren Garvey;32;100;32;false;1
+tensorflow\contrib\hooks\python\__init__.py;Darren Garvey;24;100;24;false;1
+tensorflow\contrib\hooks\python\training\__init__.py;Darren Garvey;22;100;22;false;1
+tensorflow\contrib\kafka\__init__.py;Yong Tang;32;100;32;false;1
+tensorflow\contrib\kafka\python\ops\kafka_dataset_ops.py;Michael Case;74;100;74;false;1
+tensorflow\contrib\keras\api\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\contrib\keras\api\keras\__init__.py;Francois Chollet;44;100;44;false;1
+tensorflow\contrib\keras\api\keras\applications\__init__.py;Francois Chollet;36;100;36;false;1
+tensorflow\contrib\keras\api\keras\datasets\__init__.py;Francois Chollet;30;100;30;false;1
+tensorflow\contrib\keras\api\keras\preprocessing\__init__.py;Francois Chollet;27;100;27;false;1
+tensorflow\contrib\keras\api\keras\wrappers\__init__.py;Francois Chollet;25;100;25;false;1
+tensorflow\contrib\kernel_methods\__init__.py;Petros Mol;30;100;30;false;1
+tensorflow\contrib\kernel_methods\python\kernel_estimators.py;Petros Mol;339;100;339;false;1
+tensorflow\contrib\kernel_methods\python\mappers\dense_kernel_mapper.py;Petros Mol;59;100;59;false;1
+tensorflow\contrib\kernel_methods\python\mappers\random_fourier_features.py;Petros Mol;162;100;162;false;1
+tensorflow\contrib\kfac\__init__.py;A. Unique TensorFlower;46;100;46;false;1
+tensorflow\contrib\kfac\python\ops\curvature_matrix_vector_products.py;A. Unique TensorFlower;183;100;183;false;1
+tensorflow\contrib\kfac\python\ops\curvature_matrix_vector_products_lib.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\kfac\python\ops\estimator_lib.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\kfac\python\ops\fisher_blocks.py;A. Unique TensorFlower;1112;100;1112;false;1
+tensorflow\contrib\kfac\python\ops\fisher_blocks_lib.py;A. Unique TensorFlower;45;100;45;false;1
+tensorflow\contrib\kfac\python\ops\fisher_factors_lib.py;A. Unique TensorFlower;38;100;38;false;1
+tensorflow\contrib\kfac\python\ops\layer_collection_lib.py;A. Unique TensorFlower;44;100;44;false;1
+tensorflow\contrib\kfac\python\ops\loss_functions_lib.py;A. Unique TensorFlower;40;100;40;false;1
+tensorflow\contrib\kfac\python\ops\optimizer_lib.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\kfac\python\ops\op_queue_lib.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\kfac\python\ops\utils.py;A. Unique TensorFlower;483;100;483;false;1
+tensorflow\contrib\kfac\python\ops\utils_lib.py;A. Unique TensorFlower;47;100;47;false;1
+tensorflow\contrib\labeled_tensor\python\ops\io_ops.py;Stephan Hoyer;178;100;178;false;1
+tensorflow\contrib\labeled_tensor\python\ops\sugar.py;Stephan Hoyer;131;100;131;false;1
+tensorflow\contrib\layers\python\layers\normalization.py;A. Unique TensorFlower;160;100;160;false;1
+tensorflow\contrib\layers\python\layers\rev_block_lib.py;A. Unique TensorFlower;583;100;583;false;1
+tensorflow\contrib\learn\python\learn\learn_runner_lib.py;Jianwei Xie;30;100;30;false;1
+tensorflow\contrib\learn\python\learn\session_run_hook.py;Mustafa Ispir;28;100;28;false;1
+tensorflow\contrib\learn\python\learn\learn_io\numpy_io.py;Jianwei Xie;38;100;38;false;1
+tensorflow\contrib\legacy_seq2seq\__init__.py;Jianwei Xie;54;100;54;false;1
+tensorflow\contrib\legacy_seq2seq\python\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\contrib\libsvm\__init__.py;Yong Tang;32;100;32;false;1
+tensorflow\contrib\libsvm\python\ops\libsvm_ops.py;A. Unique TensorFlower;50;100;50;false;1
+tensorflow\contrib\linalg\python\__init__.py;Ian Langmore;19;100;19;false;1
+tensorflow\contrib\lite\toco\python\toco_from_protos.py;Andrew Selle;63;100;63;false;1
+tensorflow\contrib\lite\toco\python\toco_wrapper.py;Andrew Selle;35;100;35;false;1
+tensorflow\contrib\losses\python\metric_learning\__init__.py;A. Unique TensorFlower;39;100;39;false;1
+tensorflow\contrib\meta_graph_transform\__init__.py;David Soergel;28;100;28;false;1
+tensorflow\contrib\metrics\python\ops\confusion_matrix_ops.py;A. Unique TensorFlower;30;100;30;false;1
+tensorflow\contrib\metrics\python\ops\set_ops.py;A. Unique TensorFlower;28;100;28;false;1
+tensorflow\contrib\model_pruning\__init__.py;A. Unique TensorFlower;47;100;47;false;1
+tensorflow\contrib\model_pruning\python\learning.py;A. Unique TensorFlower;188;100;188;false;1
+tensorflow\contrib\model_pruning\python\pruning.py;A. Unique TensorFlower;672;100;672;false;1
+tensorflow\contrib\model_pruning\python\layers\layers.py;A. Unique TensorFlower;363;100;363;false;1
+tensorflow\contrib\nccl\__init__.py;A. Unique TensorFlower;38;100;38;false;1
+tensorflow\contrib\nccl\python\ops\nccl_ops.py;A. Unique TensorFlower;271;100;271;false;1
+tensorflow\contrib\nearest_neighbor\__init__.py;A. Unique TensorFlower;36;100;36;false;1
+tensorflow\contrib\nearest_neighbor\python\ops\nearest_neighbor_ops.py;A. Unique TensorFlower;64;100;64;false;1
+tensorflow\contrib\nn\python\ops\alpha_dropout.py;A. Unique TensorFlower;86;100;86;false;1
+tensorflow\contrib\nn\python\ops\fwd_gradients.py;A. Unique TensorFlower;76;100;76;false;1
+tensorflow\contrib\nn\python\ops\scaled_softplus.py;A. Unique TensorFlower;115;100;115;false;1
+tensorflow\contrib\opt\python\training\addsign.py;A. Unique TensorFlower;168;100;168;false;1
+tensorflow\contrib\opt\python\training\drop_stale_gradient_optimizer.py;A. Unique TensorFlower;114;100;114;false;1
+tensorflow\contrib\opt\python\training\lazy_adam_optimizer.py;A. Unique TensorFlower;80;100;80;false;1
+tensorflow\contrib\opt\python\training\model_average_optimizer.py;Jianwei Xie;308;100;308;false;1
+tensorflow\contrib\opt\python\training\multitask_optimizer_wrapper.py;Yifei Feng;140;100;140;false;1
+tensorflow\contrib\opt\python\training\nadam_optimizer.py;A. Unique TensorFlower;96;100;96;false;1
+tensorflow\contrib\opt\python\training\powersign.py;A. Unique TensorFlower;172;100;172;false;1
+tensorflow\contrib\opt\python\training\sign_decay.py;A. Unique TensorFlower;158;100;158;false;1
+tensorflow\contrib\periodic_resample\__init__.py;Jeff;27;100;27;false;1
+tensorflow\contrib\periodic_resample\python\__init__.py;Shanqing Cai;20;100;20;false;1
+tensorflow\contrib\predictor\contrib_estimator_predictor.py;A. Unique TensorFlower;74;100;74;false;1
+tensorflow\contrib\predictor\saved_model_predictor.py;A. Unique TensorFlower;167;100;167;false;1
+tensorflow\contrib\predictor\__init__.py;A. Unique TensorFlower;32;100;32;false;1
+tensorflow\contrib\py2tf\__init__.py;A. Unique TensorFlower;36;100;36;false;1
+tensorflow\contrib\py2tf\converters\asserts.py;A. Unique TensorFlower;53;100;53;false;1
+tensorflow\contrib\py2tf\converters\break_statements.py;A. Unique TensorFlower;120;100;120;false;1
+tensorflow\contrib\py2tf\converters\builtin_functions.py;A. Unique TensorFlower;76;100;76;false;1
+tensorflow\contrib\py2tf\converters\call_trees.py;A. Unique TensorFlower;275;100;275;false;1
+tensorflow\contrib\py2tf\converters\continue_statements.py;A. Unique TensorFlower;127;100;127;false;1
+tensorflow\contrib\py2tf\converters\control_flow.py;A. Unique TensorFlower;221;100;221;false;1
+tensorflow\contrib\py2tf\converters\decorators.py;A. Unique TensorFlower;62;100;62;false;1
+tensorflow\contrib\py2tf\converters\for_loops.py;A. Unique TensorFlower;86;100;86;false;1
+tensorflow\contrib\py2tf\converters\list_comprehension.py;A. Unique TensorFlower;80;100;80;false;1
+tensorflow\contrib\py2tf\converters\logical_expressions.py;A. Unique TensorFlower;74;100;74;false;1
+tensorflow\contrib\py2tf\converters\side_effect_guards.py;A. Unique TensorFlower;190;100;190;false;1
+tensorflow\contrib\py2tf\converters\__init__.py;A. Unique TensorFlower;22;100;22;false;1
+tensorflow\contrib\py2tf\impl\config.py;A. Unique TensorFlower;45;100;45;false;1
+tensorflow\contrib\py2tf\impl\conversion.py;A. Unique TensorFlower;282;100;282;false;1
+tensorflow\contrib\py2tf\impl\naming.py;A. Unique TensorFlower;132;100;132;false;1
+tensorflow\contrib\py2tf\pyct\anno.py;A. Unique TensorFlower;72;100;72;false;1
+tensorflow\contrib\py2tf\pyct\ast_util.py;A. Unique TensorFlower;96;100;96;false;1
+tensorflow\contrib\py2tf\pyct\compiler.py;A. Unique TensorFlower;72;100;72;false;1
+tensorflow\contrib\py2tf\pyct\context.py;A. Unique TensorFlower;43;100;43;false;1
+tensorflow\contrib\py2tf\pyct\parser.py;A. Unique TensorFlower;40;100;40;false;1
+tensorflow\contrib\py2tf\pyct\pretty_printer.py;A. Unique TensorFlower;113;100;113;false;1
+tensorflow\contrib\py2tf\pyct\qual_names.py;A. Unique TensorFlower;104;100;104;false;1
+tensorflow\contrib\py2tf\pyct\templates.py;A. Unique TensorFlower;156;100;156;false;1
+tensorflow\contrib\py2tf\pyct\transformer.py;A. Unique TensorFlower;69;100;69;false;1
+tensorflow\contrib\py2tf\pyct\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\py2tf\pyct\static_analysis\activity.py;A. Unique TensorFlower;270;100;270;false;1
+tensorflow\contrib\py2tf\pyct\static_analysis\annos.py;A. Unique TensorFlower;50;100;50;false;1
+tensorflow\contrib\py2tf\pyct\static_analysis\live_values.py;A. Unique TensorFlower;112;100;112;false;1
+tensorflow\contrib\py2tf\pyct\static_analysis\type_info.py;A. Unique TensorFlower;186;100;186;false;1
+tensorflow\contrib\py2tf\pyct\static_analysis\__init__.py;A. Unique TensorFlower;29;100;29;false;1
+tensorflow\contrib\py2tf\utils\context_managers.py;A. Unique TensorFlower;42;100;42;false;1
+tensorflow\contrib\py2tf\utils\misc.py;A. Unique TensorFlower;50;100;50;false;1
+tensorflow\contrib\py2tf\utils\multiple_dispatch.py;A. Unique TensorFlower;90;100;90;false;1
+tensorflow\contrib\py2tf\utils\printing.py;A. Unique TensorFlower;47;100;47;false;1
+tensorflow\contrib\py2tf\utils\py_func.py;A. Unique TensorFlower;69;100;69;false;1
+tensorflow\contrib\py2tf\utils\tensor_list.py;A. Unique TensorFlower;49;100;49;false;1
+tensorflow\contrib\py2tf\utils\type_check.py;A. Unique TensorFlower;33;100;33;false;1
+tensorflow\contrib\py2tf\utils\__init__.py;A. Unique TensorFlower;27;100;27;false;1
+tensorflow\contrib\quantize\__init__.py;Suharsh Sivakumar;34;100;34;false;1
+tensorflow\contrib\quantize\python\common.py;Suharsh Sivakumar;122;100;122;false;1
+tensorflow\contrib\quantize\python\graph_matcher.py;Suharsh Sivakumar;251;100;251;false;1
+tensorflow\contrib\quantize\python\input_to_ops.py;Suharsh Sivakumar;61;100;61;false;1
+tensorflow\contrib\quantize\python\quantize.py;Suharsh Sivakumar;340;100;340;false;1
+tensorflow\contrib\quantize\python\quant_ops.py;Suharsh Sivakumar;303;100;303;false;1
+tensorflow\contrib\receptive_field\receptive_field_api.py;A. Unique TensorFlower;27;100;27;false;1
+tensorflow\contrib\receptive_field\python\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\reduce_slice_ops\__init__.py;Gao, Xiang;26;100;26;false;1
+tensorflow\contrib\remote_fused_graph\pylib\__init__.py;A. Unique TensorFlower;33;100;33;false;1
+tensorflow\contrib\remote_fused_graph\pylib\python\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\remote_fused_graph\pylib\python\ops\remote_fused_graph_ops.py;A. Unique TensorFlower;66;100;66;false;1
+tensorflow\contrib\remote_fused_graph\pylib\python\ops\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\resampler\__init__.py;Yifei Feng;26;100;26;false;1
+tensorflow\contrib\resampler\python\__init__.py;Yifei Feng;19;100;19;false;1
+tensorflow\contrib\rnn\python\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\saved_model\__init__.py;Sukriti Ramesh;34;100;34;false;1
+tensorflow\contrib\saved_model\python\__init__.py;Sukriti Ramesh;28;100;28;false;1
+tensorflow\contrib\saved_model\python\saved_model\reader.py;Sukriti Ramesh;92;100;92;false;1
+tensorflow\contrib\saved_model\python\saved_model\signature_def_utils.py;Sukriti Ramesh;42;100;42;false;1
+tensorflow\contrib\saved_model\python\saved_model\__init__.py;Sukriti Ramesh;28;100;28;false;1
+tensorflow\contrib\seq2seq\python\ops\beam_search_ops.py;Eugene Brevdo;27;100;27;false;1
+tensorflow\contrib\seq2seq\python\ops\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\contrib\signal\python\__init__.py;Dan Ringwalt;19;100;19;false;1
+tensorflow\contrib\signal\python\ops\__init__.py;Dan Ringwalt;19;100;19;false;1
+tensorflow\contrib\slim\python\slim\summaries.py;A. Unique TensorFlower;220;100;220;false;1
+tensorflow\contrib\solvers\__init__.py;A. Unique TensorFlower;27;100;27;false;1
+tensorflow\contrib\solvers\python\__init__.py;A. Unique TensorFlower;19;100;19;false;1
+tensorflow\contrib\sparsemax\__init__.py;Benoit Steiner;35;100;35;false;1
+tensorflow\contrib\sparsemax\python\ops\sparsemax.py;Benoit Steiner;73;100;73;false;1
+tensorflow\contrib\sparsemax\python\ops\sparsemax_loss.py;Benoit Steiner;60;100;60;false;1
+tensorflow\contrib\specs\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\contrib\specs\python\params_ops.py;A. Unique TensorFlower;87;100;87;false;1
+tensorflow\contrib\specs\python\specs_lib.py;A. Unique TensorFlower;238;100;238;false;1
+tensorflow\contrib\staging\__init__.py;A. Unique TensorFlower;20;100;20;false;1
+tensorflow\contrib\tensorboard\__init__.py;Dan Smilkov;22;100;22;false;1
+tensorflow\contrib\tensorboard\plugins\__init__.py;Dan Smilkov;23;100;23;false;1
+tensorflow\contrib\tensorboard\plugins\trace\__init__.py;Dan Smilkov;24;100;24;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\hybrid_layer.py;A. Unique TensorFlower;41;100;41;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\__init__.py;A. Unique TensorFlower;22;100;22;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\layers\fully_connected.py;A. Unique TensorFlower;82;100;82;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\layers\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\decisions_to_data_then_nn.py;A. Unique TensorFlower;43;100;43;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\forest_to_data_then_nn.py;A. Unique TensorFlower;46;100;46;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\hard_decisions_to_data_then_nn.py;A. Unique TensorFlower;71;100;71;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\k_feature_decisions_to_data_then_nn.py;A. Unique TensorFlower;43;100;43;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\nn.py;A. Unique TensorFlower;40;100;40;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\stochastic_hard_decisions_to_data_then_nn.py;A. Unique TensorFlower;45;100;45;false;1
+tensorflow\contrib\tensor_forest\hybrid\python\models\__init__.py;A. Unique TensorFlower;18;100;18;false;1
+tensorflow\contrib\tensor_forest\python\ops\data_ops.py;A. Unique TensorFlower;212;100;212;false;1
+tensorflow\contrib\tensor_forest\python\ops\model_ops.py;A. Unique TensorFlower;119;100;119;false;1
+tensorflow\contrib\tensor_forest\python\ops\stats_ops.py;A. Unique TensorFlower;114;100;114;false;1
+tensorflow\contrib\tensor_forest\python\ops\tensor_forest_ops.py;A. Unique TensorFlower;28;100;28;false;1
+tensorflow\contrib\text\__init__.py;Wei Ho;30;100;30;false;1
+tensorflow\contrib\text\python\ops\__init__.py;Wei Ho;22;100;22;false;1
+tensorflow\contrib\tfprof\model_analyzer.py;A. Unique TensorFlower;118;100;118;false;1
+tensorflow\contrib\tfprof\tfprof_logger.py;A. Unique TensorFlower;29;100;29;false;1
+tensorflow\contrib\tfprof\__init__.py;A. Unique TensorFlower;36;100;36;false;1
+tensorflow\contrib\timeseries\python\__init__.py;Allen Lavoie;23;100;23;false;1
+tensorflow\contrib\timeseries\python\timeseries\feature_keys.py;Allen Lavoie;74;100;74;false;1
+tensorflow\contrib\timeseries\python\timeseries\input_pipeline.py;Allen Lavoie;832;100;832;false;1
+tensorflow\contrib\timeseries\python\timeseries\model_utils.py;Allen Lavoie;98;100;98;false;1
+tensorflow\contrib\timeseries\python\timeseries\__init__.py;Allen Lavoie;28;100;28;false;1
+tensorflow\contrib\timeseries\python\timeseries\state_space_models\kalman_filter.py;Allen Lavoie;341;100;341;false;1
+tensorflow\contrib\timeseries\python\timeseries\state_space_models\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\contrib\tpu\profiler\pip_package\cloud_tpu_profiler\__init__.py;Eric Liu;19;100;19;false;1
+tensorflow\contrib\tpu\python\profiler\__init__.py;Eric Liu;30;100;30;false;1
+tensorflow\contrib\tpu\python\tpu\topology.py;Peter Hawkins;137;100;137;false;1
+tensorflow\contrib\tpu\python\tpu\tpu_context.py;Jianwei Xie;510;100;510;false;1
+tensorflow\contrib\tpu\python\tpu\tpu_function.py;Frank Chen;106;100;106;false;1
+tensorflow\contrib\tpu\python\tpu\tpu_system_metadata.py;Jianwei Xie;155;100;155;false;1
+tensorflow\contrib\tpu\python\tpu\training_loop.py;Frank Chen;213;100;213;false;1
+tensorflow\contrib\tpu\python\tpu\util.py;Jianwei Xie;31;100;31;false;1
+tensorflow\contrib\tpu\python\tpu\__init__.py;Frank Chen;20;100;20;false;1
+tensorflow\contrib\training\python\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\contrib\training\python\training\feeding_queue_runner.py;Martin Wicke;24;100;24;false;1
+tensorflow\contrib\training\python\training\tensor_queue_dataset.py;Eugene Brevdo;200;100;200;false;1
+tensorflow\contrib\training\python\training\tuner.py;Jianwei Xie;87;100;87;false;1
+tensorflow\contrib\training\python\training\__init__.py;Robin Richtsfeld;18;100;18;false;1
+tensorflow\python\data\util\convert.py;Brennan Saeta;34;100;34;false;1
+tensorflow\python\debug\cli\base_ui.py;Shanqing Cai;215;100;215;false;1
+tensorflow\python\debug\cli\cli_config.py;Shanqing Cai;160;100;160;false;1
+tensorflow\python\debug\cli\curses_widgets.py;Shanqing Cai;202;100;202;false;1
+tensorflow\python\debug\cli\evaluator.py;Shanqing Cai;152;100;152;false;1
+tensorflow\python\debug\cli\readline_ui.py;Shanqing Cai;129;100;129;false;1
+tensorflow\python\debug\cli\ui_factory.py;Shanqing Cai;71;100;71;false;1
+tensorflow\python\debug\lib\common.py;Shanqing Cai;87;100;87;false;1
+tensorflow\python\debug\lib\debug_service_pb2_grpc.py;Shanqing Cai;111;100;111;false;1
+tensorflow\python\debug\lib\profiling.py;Shanqing Cai;108;100;108;false;1
+tensorflow\python\debug\lib\source_remote.py;Shanqing Cai;209;100;209;false;1
+tensorflow\python\eager\imperative_grad.py;Alexandre Passos;65;100;65;false;1
+tensorflow\python\estimator\gc.py;Igor Saprykin;209;100;209;false;1
+tensorflow\python\estimator\canned\optimizers.py;A. Unique TensorFlower;78;100;78;false;1
+tensorflow\python\estimator\export\export_lib.py;Jonathan Hseu;43;100;43;false;1
+tensorflow\python\estimator\inputs\inputs.py;Jonathan Hseu;33;100;33;false;1
+tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py;Jianwei Xie;180;100;180;false;1
+tensorflow\python\framework\tensor_spec.py;Sergio Guadarrama;201;100;201;false;1
+tensorflow\python\grappler\item.py;Benoit Steiner;95;100;95;false;1
+tensorflow\python\grappler\model_analyzer.py;Benoit Steiner;39;100;39;false;1
+tensorflow\python\keras\activations\__init__.py;Yifei Feng;41;100;41;false;1
+tensorflow\python\keras\applications\__init__.py;Francois Chollet;45;100;45;false;1
+tensorflow\python\keras\applications\densenet\__init__.py;Francois Chollet;29;100;29;false;1
+tensorflow\python\keras\applications\inception_resnet_v2\__init__.py;Martin Wicke;27;100;27;false;1
+tensorflow\python\keras\applications\nasnet\__init__.py;Francois Chollet;28;100;28;false;1
+tensorflow\python\keras\backend\__init__.py;Yifei Feng;163;100;163;false;1
+tensorflow\python\keras\callbacks\__init__.py;Yifei Feng;37;100;37;false;1
+tensorflow\python\keras\constraints\__init__.py;Yifei Feng;40;100;40;false;1
+tensorflow\python\keras\estimator\__init__.py;Yifei Feng;25;100;25;false;1
+tensorflow\python\keras\initializers\__init__.py;Yifei Feng;49;100;49;false;1
+tensorflow\python\keras\layers\__init__.py;Francois Chollet;156;100;156;false;1
+tensorflow\python\keras\losses\__init__.py;Yifei Feng;45;100;45;false;1
+tensorflow\python\keras\metrics\__init__.py;Yifei Feng;47;100;47;false;1
+tensorflow\python\keras\optimizers\__init__.py;Yifei Feng;39;100;39;false;1
+tensorflow\python\keras\preprocessing\image\__init__.py;Yifei Feng;38;100;38;false;1
+tensorflow\python\keras\utils\__init__.py;Francois Chollet;40;100;40;false;1
+tensorflow\python\keras\_impl\keras\applications\__init__.py;Francois Chollet;32;100;32;false;1
+tensorflow\python\keras\_impl\keras\layers\__init__.py;Yifei Feng;40;100;40;false;1
+tensorflow\python\ops\list_ops.py;Alexandre Passos;94;100;94;false;1
+tensorflow\python\ops\manip_grad.py;Michael Case;31;100;31;false;1
+tensorflow\python\ops\manip_ops.py;Michael Case;38;100;38;false;1
+tensorflow\python\ops\rnn_cell.py;Eugene Brevdo;51;100;51;false;1
+tensorflow\python\ops\spectral_grad.py;RJ Ryan;179;100;179;false;1
+tensorflow\python\ops\distributions\bijectors.py;Eugene Brevdo;31;100;31;false;1
+tensorflow\python\ops\distributions\distributions.py;Eugene Brevdo;65;100;65;false;1
+tensorflow\python\platform\control_imports.py;Rohan Jain;27;100;27;false;1
+tensorflow\python\platform\self_check.py;Derek Murray;101;100;101;false;1
+tensorflow\python\profiler\profile_context.py;A. Unique TensorFlower;337;100;337;false;1
+tensorflow\python\profiler\internal\flops_registry.py;A. Unique TensorFlower;447;100;447;false;1
+tensorflow\python\saved_model\main_op.py;Sukriti Ramesh;35;100;35;false;1
+tensorflow\python\summary\plugin_asset.py;Dandelion Mané;141;100;141;false;1
+tensorflow\python\tools\saved_model_utils.py;Hee Jung Ryu;49;100;49;false;1
+tensorflow\python\training\checkpointable.py;Allen Lavoie;584;100;584;false;1
+tensorflow\python\util\future_api.py;Patrick Nguyen;36;100;36;false;1
+tensorflow\python\util\is_in_graph_mode.py;A. Unique TensorFlower;22;100;22;false;1
+tensorflow\python\util\keyword_args.py;Jianwei Xie;52;100;52;false;1
+tensorflow\python\util\tf_contextlib.py;Charles Nicholson;36;100;36;false;1
+tensorflow\python\util\tf_export.py;Anna R;128;100;128;false;1
+tensorflow\tools\api\generator\create_python_api.py;Anna R;197;100;197;false;1
+tensorflow\tools\build_info\gen_build_info.py;Derek Murray;99;100;99;false;1
+tensorflow\tools\ci_build\copy_binary.py;Amit Patankar;129;100;129;false;1
+tensorflow\tools\pip_package\simple_console_for_windows.py;Patrick Nguyen;33;100;33;false;1
+third_party\llvm\expand_cmake_vars.py;Peter Hawkins;88;100;88;false;1

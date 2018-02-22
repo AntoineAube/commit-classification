@@ -1,0 +1,4 @@
+File;Othor1;LineOthor1;Contribution1;Othor2;LineOthor2;Contribution2;Othor3;LineOthor3;Contribution3;File Lines;Learning;NbOthors
+\keras\applications\nasnet.py;Francois Chollet  ;64;9.75609756097561;Somshubra Majumdar;591;90.09146341463415;Taehoon Lee       ;3;0.4573170731707317;656;false;3
+\keras\datasets\cifar.py;fchollet        ;10;27.027027027027028;Francois Chollet;18;48.648648648648646;Bohumír Zámečník;11;29.72972972972973;37;false;3
+\keras\layers\cudnn_recurrent.py;Francois Chollet;16;2.985074626865672;François Chollet;519;96.82835820895522;fchollet        ;3;0.5597014925373134;536;false;3
