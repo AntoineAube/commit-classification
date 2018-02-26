@@ -33,3 +33,7 @@ echo "[DRILL] Drilling algorithms in project 'scikit-image'"
 
 echo "[DRILL] Drilling algorithms in project 'nltk'"
 ./nltk-algorithms.sh
+
+
+echo "[EXECUTION] Run the notebook and output the HTML report."
+jupyter nbconvert --execute who-own-the-algorithms.ipynb --ExecutePreprocessor.timeout=-1
