@@ -1,4 +1,5 @@
-# How are organized the Machine Learning Open Source projects ?, a REaCE study
+# How are organized the Machine Learning Open Source projects ?
+### A REaCE study @ Polytech Nice-Sophia
 
 ## Authors
 
