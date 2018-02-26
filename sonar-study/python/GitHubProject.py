@@ -32,7 +32,7 @@ class GitHubProject:
         self.language = language
         self.sonarqube_ip = sonarqube_ip
         self.rest_api_ip = rest_api_ip
-        self.sonarqube_project_key = self.owner+':'+self.repo
+        self.sonarqube_project_key = self.repo
         self.rest_key = self.owner+'/'+self.repo
         self.timemachine_metrics_url = PROTOCOL + self.sonarqube_ip + ':' + SONARQUBE_PORT + '/api/'+ 'measures/search_history?' + 'component=' + self.sonarqube_project_key + '&additionalFields=periods'+ '&ps=1000' + '&metrics='
         self.issues_url = PROTOCOL + self.sonarqube_ip + ':' + SONARQUBE_PORT + '/api/'+ 'issues/search?' + 'projectKeys=' + self.sonarqube_project_key + '&languages=' + self.language.lower() + '&ps=' + str(PS)
