@@ -1,4 +1,0 @@
-File;Othor1;LineOthor1;Contribution1;Othor2;LineOthor2;Contribution2;Othor3;LineOthor3;Contribution3;Othor4;LineOthor4;Contribution4;File Lines;Learning;NbOthors
-\keras\applications\__init__.py;Francois Chollet  ;5;55.55555555555556;Yu-Yang Huang     ;2;22.22222222222222;Somshubra Majumdar;3;33.333333333333336;Taehoon Lee       ;2;22.22222222222222;9;false;4
-\keras\datasets\cifar100.py;Francois Chollet ;25;54.34782608695652;fchollet         ;20;43.47826086956522;Taehoon Lee      ;2;4.3478260869565215;Michal Podhradsky;2;4.3478260869565215;46;false;4
-\keras\utils\conv_utils.py;Francois Chollet     ;143;90.50632911392405;Bas Veeling          ;6;3.7974683544303796;Taehoon Lee          ;3;1.8987341772151898;Adam Basfop Cavendish;9;5.69620253164557;158;false;4

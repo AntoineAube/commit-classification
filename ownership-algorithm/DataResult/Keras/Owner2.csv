@@ -1,6 +1,0 @@
-File;Othor1;LineOthor1;Contribution1;Othor2;LineOthor2;Contribution2;File Lines;Learning;NbOthors
-\keras\__init__.py;Francois Chollet;25;96.15384615384616;Chris           ;2;7.6923076923076925;26;false;2
-\keras\applications\densenet.py;Taehoon Lee     ;320;94.11764705882354;Francois Chollet;21;6.176470588235294;340;false;2
-\keras\datasets\boston_housing.py;Francois Chollet;37;86.04651162790698;Oleg Zabluda    ;7;16.27906976744186;43;false;2
-\keras\datasets\fashion_mnist.py;Francois Chollet;10;22.22222222222222;Dr. Kashif Rasul;36;80;45;false;2
-\keras\datasets\__init__.py;Francois Chollet;8;88.88888888888889;Dr. Kashif Rasul;2;22.22222222222222;9;false;2
