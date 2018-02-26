@@ -23,3 +23,13 @@ echo "[DRILL] Begin project drilling."
 ownership scikit-learn
 ownership scikit-image
 ownership nltk
+
+
+echo "[DRILL] Drilling algorithms in project 'scikit-learn'"
+./scikit-learn-algorithms.sh
+
+echo "[DRILL] Drilling algorithms in project 'scikit-image'"
+./scikit-image-algorithms.sh
+
+echo "[DRILL] Drilling algorithms in project 'nltk'"
+./nltk-algorithms.sh
