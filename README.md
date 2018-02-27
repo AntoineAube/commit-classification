@@ -1,6 +1,8 @@
 # How are organized the Machine Learning Open Source projects ?
 ### A REaCE study @ Polytech Nice-Sophia
 
+You can build the artefacts with the script ```study.sh```.
+
 ## Authors
 
 * Robin Alonzo <alonzo.robin@etu.unice.fr>
